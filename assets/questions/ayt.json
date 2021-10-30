@@ -1,0 +1,986 @@
+{
+"title" : "ayt",
+    "questions" : [
+    {
+        "id": 20001,
+        "question": "Ayşe, bir kaza sonucu bitkisel hayata girmiş olmasına rağmen hayatsal faaliyetleri devam etmekterdir buna göre beynin hangi bölümü aktif olarak görev yapar.",
+        "option1": "Omurilik soğanı",
+        "option2": "Beyincik",
+        "option3": "Ön Beyin",
+        "option4": "Omurilik",
+        "rightAnswer": "Omurilik soğanı"
+    },
+    {
+        "id": 20002,
+        "question": "Aşağıdakilerden hangisi kalıtsal reflekstir?",
+        "option1": "Dans Etme",
+        "option2": "Yüzme",
+        "option3": "Hapşırma",
+        "option4": "Bisiklet Sürme",
+        "rightAnswer": "Hapşırma"
+    },
+    {
+        "id": 20003,
+        "question": "Aşağıda verilen hormon çiftlerinden hangisi antagonist (zıt) çalışır?",
+        "option1": "Oksitosin - Prolaktin",
+        "option2": "Kalsitonin - Parathormon",
+        "option3": "Adrenalin - Noradrenalin",
+        "option4": "FSH - LH",
+        "rightAnswer": "Kalsitonin - Parathormon"
+    },
+    {
+        "id": 20004,
+        "question": "İnsanlarda hormonların fazla ya da az salgılanması bazı hastalıklara neden olmaktadır. Buna göre aşağıdaki hastalıklardan hangisi hormonal değildir?",
+        "option1": "Kretenizm",
+        "option2": "Addison",
+        "option3": "Alzheimer",
+        "option4": "Akromegali",
+        "rightAnswer": "Alzheimer"
+    },
+    {
+        "id": 20005,
+        "question": "Aşağıdaki görme bozukluklarından hangisinin tedavisi yapılamaz?",
+        "option1": "Presbitlik",
+        "option2": "Astigmatlık",
+        "option3": "Renk Körlüğü",
+        "option4": "Glukom",
+        "rightAnswer": "Renk Körlüğü"
+    },
+    {
+        "id": 20006,
+        "question": "Baygınlık geçiren bir kişiye müdahale eden doktorun kişinin göz bebeğine ışık tutmasının amacı aşağıdakilerden hangisidir?",
+        "option1": "Gözdeki renk değişimini görmek",
+        "option2": "Kornea tabakasını görmek",
+        "option3": "Gözün ışığa tepkisini görmek",
+        "option4": "Göz tansiyonunu ölçmek",
+        "rightAnswer": "Gözün ışığa tepkisini görmek"
+    },
+    {
+        "id": 20007,
+        "question": "Aşağıdakilerden hangisi destek ve hareket sistemi rahatsızlıklarından biridir?",
+        "option1": "Menisküs",
+        "option2": "Epilepsi",
+        "option3": "Alzheimer",
+        "option4": "Parkinson",
+        "rightAnswer": "Menisküs"
+    },
+    {
+        "id": 20008,
+        "question": "Çizgili kasların kasılması sırasında ATPaz enziminin aktivitesini sağlayan Ca2+ iyonları kas hücrelerinin hangi yapısında depolanır?",
+        "option1": "Sarkomer",
+        "option2": "Sarkoplazmik retikulum",
+        "option3": "Sarkolemma",
+        "option4": "Miyozin",
+        "rightAnswer": "Sarkoplazmik retikulum"
+    },
+    {
+        "id": 20009,
+        "question": "Pankreas öz suyunda aşağıdakilerden hangisi bulunmaz?",
+        "option1": "İnsülin",
+        "option2": "Lipaz",
+        "option3": "Kimotripsinojen",
+        "option4": "RNAaz",
+        "rightAnswer": "İnsülin"
+    },
+    {
+        "id": 20010,
+        "question": "Aşağıdakilerden hangisi sindirim sistemi hastalığı değildir?",
+        "option1": "Sarılık",
+        "option2": "Ülser",
+        "option3": "Siroz",
+        "option4": "Üremi",
+        "rightAnswer": "Üremi"
+    },
+    {
+        "id": 20011,
+        "question": "Dokuların, kendilerini besleyen atardamarların herhangi bir sebeple yetersiz hâle gelmesi sonucunda canlılığını kaybetmesi durumunda ortaya çıkan hastalık aşağıdakilerden hangisidir?",
+        "option1": "Varis",
+        "option2": "Kangren",
+        "option3": "Anemi",
+        "option4": "Ödem",
+        "rightAnswer": "Kangren"
+    },
+    {
+        "id": 20012,
+        "question": "Sağlıklı bir insanın kan plazmasında aşağıdaki maddelerden hangisi bulunmaz?",
+        "option1": "Hormon",
+        "option2": "Monomer",
+        "option3": "Sindirim enzimi",
+        "option4": "Antikor",
+        "rightAnswer": "Sindirim enzimi"
+    },
+    {
+        "id": 20013,
+        "question": "Aşağıdakilerden hangisi solunum sistemi hastalıklarından değildir?",
+        "option1": "Otit",
+        "option2": "KOAH",
+        "option3": "Faranjit",
+        "option4": "Bronşit",
+        "rightAnswer": "Otit"
+    },
+    {
+        "id": 20014,
+        "question": "Soluk alma sırasında aşağıdakilerden hangisi gerçekleşmez?",
+        "option1": "Akciğer iç basıncı artar",
+        "option2": "Göğüs kafesi genişler",
+        "option3": "Karın iç basıncı artar",
+        "option4": "Diyafram kasları kasılır",
+        "rightAnswer": "Akciğer iç basıncı artar"
+    },
+    {
+        "id": 20015,
+        "question": "Aşağıdaki maddelerden hangisi sağlıklı bir insanda süzülme ile bowman kapsülüne geçen maddelerden değildir?",
+        "option1": "Vitamin",
+        "option2": "Mineral",
+        "option3": "Alyuvar",
+        "option4": "Kreatin",
+        "rightAnswer": "Alyuvar"
+    },
+    {
+        "id": 20016,
+        "question": "Sağlıklı bir insanın idrarında aşağıdaki maddelerden hangisi bulunmaz?",
+        "option1": "Mineral",
+        "option2": "Kreatin",
+        "option3": "Glikoz",
+        "option4": "Ürik asit",
+        "rightAnswer": "Glikoz"
+    },
+    {
+        "id": 20017,
+        "question": "Rahimin düzenli bir şekilde, her ay hamilelik için hazırlanmasını sağlayan hormon hangisidir?",
+        "option1": "Lüteinleştici hormon",
+        "option2": "Prolaktin",
+        "option3": "Oksitosin",
+        "option4": "Progesteron",
+        "rightAnswer": "Progesteron"
+    },
+    {
+        "id": 20018,
+        "question": "Sperm hücreleri olgunlaşmasını tamamlayıp hareket yeteneği kazandıktan sonra erkek üreme sisteminin hangi kısmına geçer?",
+        "option1": "Vas deferens kanalı",
+        "option2": "Epididimis",
+        "option3": "Seminifer tüpçükler",
+        "option4": "Üreter",
+        "rightAnswer": "Vas deferens kanalı"
+    },
+    {
+        "id": 20019,
+        "question": "Aşağıdaki bitkilerden hangisi emeçleriyle konak bitkiden ihtiyacı olan organik maddeyi alır?",
+        "option1": "Eğrelti otu",
+        "option2": "Kara yosunu",
+        "option3": "Canavar otu",
+        "option4": "Böcekçil bitki",
+        "rightAnswer": "Canavar otu"
+    },
+    {
+        "id": 20020,
+        "question": "Aşağıdakilerden hangisi bir iç parazit örneğidir?",
+        "option1": "Tenya",
+        "option2": "Bit",
+        "option3": "Pire",
+        "option4": "Kene",
+        "rightAnswer": "Tenya"
+    },
+    {
+        "id": 20021,
+        "question": "Ökaryot bir hücrede bir nükleotit hidroliz edilir ise hangisi kesin olarak elde edilir?",
+        "option1": "Fosforik asit",
+        "option2": "Riboz ",
+        "option3": "Guanin",
+        "option4": "Deoksiriboz",
+        "rightAnswer": "Fosforik asit"
+    },
+    {
+        "id": 20022,
+        "question": "Ökaryot bir hücrede aşağıdaki bileşiklerden hangisi DNA'nın yapısında bulunur?",
+        "option1": "Karbonhidrat",
+        "option2": "Yağ",
+        "option3": "Vitamin",
+        "option4": "Hormon",
+        "rightAnswer": "Karbonhidrat"
+    },
+    {
+        "id": 20023,
+        "question": "Aşağıdaki elementlerden hangisi ATP molekülünün yapısında bulunmaz?",
+        "option1": "Karbon",
+        "option2": "Hidrojen",
+        "option3": "Kükürt",
+        "option4": "Fosfor",
+        "rightAnswer": "Kükürt"
+    },
+    {
+        "id": 20024,
+        "question": "Fotosentezin Calvin döngüsü reaksiyonlarından ışık evresi reaksiyonlarına hangilerinin aktarımı yapılır?",
+        "option1": "ADP ve NADP+",
+        "option2": "ATP ve H2O",
+        "option3": "ATP ve NADPH",
+        "option4": "CO2 ve basit şeker",
+        "rightAnswer": "ADP ve NADP+"
+    },
+    {
+        "id": 20025,
+        "question": "Bitkilerde kökteki odun borularından su ve minerallerin yapraklara kadar taşınmasında hangisinin rolü yoktur?",
+        "option1": "Aktif taşıma",
+        "option2": "Adhezyon kuvveti",
+        "option3": "Kılcallık",
+        "option4": "Kök basıncı",
+        "rightAnswer": "Aktif taşıma"
+    },
+    {
+        "id": 20026,
+        "question": "Aşağıdakilerden hangisi karasal ortamda yaşayan bir bitkinin kökleri tarafından gerçekleştirilemez?",
+        "option1": "Topraktan su ve mineral alma",
+        "option2": "Hormon salgılama",
+        "option3": "Fotosentez ile besin üretme",
+        "option4": "Gerektiğinde besin depolama",
+        "rightAnswer": "Fotosentez ile besin üretme"
+    },
+    {
+        "id": 20027,
+        "question": "Aşağıdaki hücrelerin hangisinde meydana gelen mutasyonlar kalıtsaldır?",
+        "option1": "Yumurta",
+        "option2": "Testis",
+        "option3": "Yumurtalık",
+        "option4": "Deri",
+        "rightAnswer": "Yumurta"
+    },
+    {
+        "id": 20028,
+        "question": "Aşağıdaki canlılardan hangisinin genlerinde mutasyon görülme ihtimali daha yüksektir?",
+        "option1": "Paramesyum",
+        "option2": "Mantar",
+        "option3": "Bakteri",
+        "option4": "İnsan",
+        "rightAnswer": "Bakteri"
+    },
+    {
+        "id": 20029,
+        "question": "Sperm hücrelerinin olgunlaşmasını tamamlayarak hareket etme yeteneği kazandığı yapı hangisidir?",
+        "option1": "Üretra",
+        "option2": "Prostat bezi",
+        "option3": "Testisler",
+        "option4": "Epididimis",
+        "rightAnswer": "Epididimis"
+    },
+    {
+        "id": 20030,
+        "question": "İnsan embriyosunu dıştan kuşatan ilk zar hangisidir?",
+        "option1": "Vitellüs",
+        "option2": "Koryon",
+        "option3": "Amniyon",
+        "option4": "Allantoyis",
+        "rightAnswer": "Amniyon"
+    },
+    {
+        "id": 20031,
+        "question": "İnsanlarda embriyonun solunum, beslenme, boşaltım gibi olaylarını gerçekleştiren yapı aşağıdakilerden hangisidir ?",
+        "option1": "Plasenta",
+        "option2": "Amniyon zarı",
+        "option3": "Vitellüs kesesi",
+        "option4": "Allantoyis",
+        "rightAnswer": "Plasenta"
+    },
+    {
+        "id": 20032,
+        "question": "Embriyoda ilk önce faaliyete geçen sistem hangisidir?",
+        "option1": "Solunum",
+        "option2": "Boşaltım",
+        "option3": "Dolaşım",
+        "option4": "Sinir",
+        "rightAnswer": "Sinir"
+    },
+    {
+        "id": 20033,
+        "question": "Spermatogenezi normal gerçekleşmeyen bir erkekte aşağıdaki gametlerden hangisi mayoz II' de ayrılmama sonucu oluşmamıştır?",
+        "option1": "22+0",
+        "option2": "22+XX",
+        "option3": "22+YY",
+        "option4": "22+XY",
+        "rightAnswer": "22+XY"
+    },
+    {
+        "id": 20034,
+        "question": "Aşağıdakilerden hangisi karaciğerin görevi değildir?",
+        "option1": "Amonyağı üreye çevirme",
+        "option2": "Sindirim enzimini üreterek ince bağırsağa gönderme",
+        "option3": "Provitamin A yı A vitaminine dönüştürme",
+        "option4": "İlaçların zehirli etkilerini yok etme",
+        "rightAnswer": "Sindirim enzimini üreterek ince bağırsağa gönderme"
+    },
+    {
+        "id": 20035,
+        "question": "Strese kısa süreli tepki veren hormon çifti aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+        "option1": "Adrenalin -  Aldosteron",
+        "option2": "Aldosteron -  Kortizol",
+        "option3": "Kortizol - Adrenalin",
+        "option4": "Adrenalin - Noradrenalin",
+        "rightAnswer": "Adrenalin - Noradrenalin"
+    },
+    {
+        "id": 20036,
+        "question": "İnsanlarda hormon miktarının tespitinde genellikle aşağıdakilerden hangisi kullanılır?",
+        "option1": "Kan",
+        "option2": "Tükürük",
+        "option3": "Sperm",
+        "option4": "Gözyaşı",
+        "rightAnswer": "Kan"
+    },
+    {
+        "id": 20037,
+        "question": "Aşağıdakilerden hangisi karma bez özelliği göstermektedir?",
+        "option1": "Tiroit bezi",
+        "option2": "Böbreküstü bezi",
+        "option3": "Yumurtalık",
+        "option4": "Paratiroit bezi",
+        "rightAnswer": "Yumurtalık"
+    },
+    {
+        "id": 20038,
+        "question": "Nefrona ait aşağıdaki yapılardan hangisi böbreğin öz bölgesinde bulunur?",
+        "option1": "Bowman kapsülü",
+        "option2": "Proksimal tüp",
+        "option3": "Distal tüp",
+        "option4": "Henle kulpu",
+        "rightAnswer": "Henle kulpu"
+    },
+    {
+        "id": 20039,
+        "question": "Bacak toplardamarına verilen işaretli alyuvar hücresi karaciğere gelinceye kadar aşağıdaki damarlardan hangisine uğramak zorunda değildir?",
+        "option1": "Alt ana toplardamar",
+        "option2": "Akciğer toplardamarı",
+        "option3": "Kapı toplardamarı",
+        "option4": "Aort",
+        "rightAnswer": "Kapı toplardamarı"
+    },
+    {
+        "id": 20040,
+        "question": "İnsan kan plazmasında aşağıdakilerden hangisi bulunmaz?",
+        "option1": "Albumin",
+        "option2": "Globulin",
+        "option3": "Histamin",
+        "option4": "Hemoglobin",
+        "rightAnswer": "Hemoglobin"
+    },
+    {
+        "id": 20041,
+        "question": "Alyuvarın özellikleri ile ilgili verilenlerden hangisi yanlıştır?",
+        "option1": "Yapısında hemoglobin bulunur",
+        "option2": "Sayısı yaşa ve cinsiyete göre değişir",
+        "option3": "Gerektiğinde bölünerek çoğalır",
+        "option4": "Kanla birlikte pasif olarak taşınır",
+        "rightAnswer": "Gerektiğinde bölünerek çoğalır"
+    },
+    {
+        "id": 20042,
+        "question": "Kan serumunda aşağıdakilerden hangisi bulunmaz?",
+        "option1": "Heparin",
+        "option2": "Akyuvar",
+        "option3": "Globulin",
+        "option4": "Eritropoietin",
+        "rightAnswer": "Akyuvar"
+    },
+    {
+        "id": 20043,
+        "question": "Beyin içinde bulunan sinir hücrelerinin olağan dışı bir elektro-kimyasal boşalma yapması sonucu ortaya çıkan nörolojik bozukluktur. Bu hastalık aşağıdakilerden hangisidir?",
+        "option1": "Alzheimer",
+        "option2": "Felç",
+        "option3": "Epilepsi",
+        "option4": "Multiple Skleroz",
+        "rightAnswer": "Epilepsi"
+    },
+    {
+        "id": 20044,
+        "question": "Bağışıklık sistemi hücrelerinin merkezi sinir sistemine sızması sonucu nöronları saran miyelin kılıfın tahrip olması ile ortaya çıkan sinir sistemi hastalığı aşağıdakilerden hangisidir?",
+        "option1": "Parkinson",
+        "option2": "Multiple Skleroz",
+        "option3": "Epilepsi",
+        "option4": "Felç",
+        "rightAnswer": "Multiple Skleroz"
+    },
+    {
+        "id": 20045,
+        "question": "Sindirim sistemi rahatsızlıklarının tespitinde aşağıdaki yöntemlerden hangisinin yapılmasına gerek yoktur?",
+        "option1": "Kan tahlili",
+        "option2": "Röntgen",
+        "option3": "İdrar tahlili",
+        "option4": "Endoskopi",
+        "rightAnswer": "İdrar tahlili"
+    },
+    {
+        "id": 20046,
+        "question": "Mide mukozasının iltihaplanması sonucu ortaya çıkan hastalık aşağıdakilerden hangisidir?",
+        "option1": "Reflü",
+        "option2": "Gastrit",
+        "option3": "Ülser",
+        "option4": "İshal",
+        "rightAnswer": "Gastrit"
+    },
+    {
+        "id": 20047,
+        "question": "FSH ve tiroksin hormonları için aşağıdaki özelliklerden hangisi ortaktır?",
+        "option1": "Canlıda üretildikleri organ",
+        "option2": "Etkiledikleri hedef organ",
+        "option3": "Hedef hücreye taşınma yolu",
+        "option4": "Hedef hücredeki etkisi",
+        "rightAnswer": "Hedef hücreye taşınma yolu"
+    },
+    {
+        "id": 20048,
+        "question": "İnsanda iskeletin yapısında yer alan çizgili kas dokuyu oluşturan birimler aşağıda verilmiştir. Verilenler küçükten büyüğe doğru sıralandığında 3. Sırada hangisi yer alır?",
+        "option1": "Kas lifi",
+        "option2": "Miyofibril",
+        "option3": "Kas demeti",
+        "option4": "Sarkomer",
+        "rightAnswer": "Sarkomer"
+    },
+    {
+        "id": 20049,
+        "question": "Aşağıda verilen besinlerden hangisini sindirebilmek için tek bir organın oluşturduğu salgı yeterli değildir?",
+        "option1": "Nişasta",
+        "option2": "Protein",
+        "option3": "Yağ",
+        "option4": "Vitamin",
+        "rightAnswer": "Yağ"
+    },
+    {
+        "id": 20050,
+        "question": "Böbrekler kanı zararlı maddelerden ve madde fazlasından temizler. Bu süreçte böbrek nefronları seçici geçirgenliklerini kullanır. Böbrekte gerçekleşen aşağıdaki olaylardan hangisi en az seçicidir?",
+        "option1": "Süzülme",
+        "option2": "Geri emilme",
+        "option3": "Salgılama",
+        "option4": "Aktif taşıma",
+        "rightAnswer": "Süzülme"
+    },
+    {
+        "id": 20051,
+        "question": "Korpus luteumun parçalanması sonucunda aşağıdakilerden hangisi meydana gelmez?",
+        "option1": "Progesteron düzeyi düşer",
+        "option2": "GnRH salgılanır",
+        "option3": "Hipofiz uyarılıp FSH salgılanır",
+        "option4": "hCG miktarı artar",
+        "rightAnswer": "hCG miktarı artar"
+    },
+    {
+        "id": 20052,
+        "question": "Erciyes Dağı'na tırmanan bir dağcının soluk alıp vermesi sırasında aşağıdaki olaylardan hangisi en son gerçekleşir?",
+        "option1": "Soluk alıp verme hızının artması",
+        "option2": "Diyafram kasının uyarılması",
+        "option3": "Omurilik soğanının uyarılması",
+        "option4": "Kan pH’sinin azalması",
+        "rightAnswer": "Soluk alıp verme hızının artması"
+    },
+    {
+        "id": 20053,
+        "question": "İnsan böbreğinin çeşitli yerlerinden alınan aşağıdaki sıvı örnekleri ile bu sıvıların içerdiği madde çeşitleri eşleştirmelerinden hangisi doğru değildir?",
+        "option1": "Glomerulus kılcalı - Alyuvar",
+        "option2": "Henle kulpu - Kreatinin",
+        "option3": "Böbrek toplardamarı - Üre",
+        "option4": "Proksimal tüp - Glikojen",
+        "rightAnswer": "Proksimal tüp - Glikojen"
+    },
+    {
+        "id": 20054,
+        "question": "Bir kovandaki işçi arılar; kovanı ısıtır, havalandırır, çiçekleri tek tek dolaşır, polenleri toplar ve larvaları besler. Verilen bilgi hangi ekolojik kavramın karşılığıdır?",
+        "option1": "Habitat",
+        "option2": "Ekolojik niş",
+        "option3": "Popülasyon",
+        "option4": "Komünite",
+        "rightAnswer": "Ekolojik niş"
+    },
+    {
+        "id": 20055,
+        "question": "Bir liken birliğinde yaşayan canlılarla ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+        "option1": "Her iki canlıda yarar sağlar",
+        "option2": "Ortaklardan birisi ototroftur",
+        "option3": "Alg-mantar ortaklığı vardır",
+        "option4": "Aynı alemde yer alır",
+        "rightAnswer": "Aynı alemde yer alır"
+    },
+    {
+        "id": 20056,
+        "question": "Aşağıdakilerden hangisi bir mutualizm örneği değildir?",
+        "option1": "Mantar ve alg birlikteliği olan liken",
+        "option2": "Mantar ve bitki birlikteliği olan mikoriza",
+        "option3": "Köpek balığı ve kılavuz balıkları",
+        "option4": "Geviş getiren memeli ve selüloz sindiren bakteri",
+        "rightAnswer": "Köpek balığı ve kılavuz balıkları"
+    },
+    {
+        "id": 20057,
+        "question": "Aşağıdaki bitkilerden hangisi emeçleriyle konak bitkiden ihtiyacı olan sadece su ve mineralleri alır?",
+        "option1": "Kara yosunu",
+        "option2": "Ökse otu",
+        "option3": "Canavar otu",
+        "option4": "Böcekçil bitki",
+        "rightAnswer": "Ökse otu"
+    },
+    {
+        "id": 20058,
+        "question": "Bir böceğin hayat döngüsünde, başlangıçta üzerinde yaşadığı bitkiden beslendiği, sonraki dönemlerde ise beslenmesine devam ederken oluşturduğu atıklarla bitkinin mineral ihtiyacını karşıladığı görülmüştür. Bitki ile böcek arasındaki beslenme ilişkisi aşağıdakilerden hangisinde doğru verilmiştir?",
+        "option1": "Parazitlik",
+        "option2": "Parazitlik ve kommensalizm",
+        "option3": "Saprofitlik",
+        "option4": "Parazitlik ve mutualizm",
+        "rightAnswer": "Parazitlik ve mutualizm"
+    },
+    {
+        "id": 20059,
+        "question": "Bir liken birliğinde iki çeşit canlı birbirinden izole edilip, yaşamlarını sürdürebilmeleri için hazırlanmış, bileşimi bilinmeyen bir sıvı ortama konuluyor. Kısa bir süre sonra bu canlılardan yeşil renkli olanın öldüğü, diğerinin yaşamını sürdürdüğü gözleniyor. Bu deneyde yararlanılan sıvı ortamla ilgili aşağıdakilerden hangisi kesinlikle söylenir?",
+        "option1": "Madensel tuzlarca zengin",
+        "option2": "Amino asit ve glikoz yönünden zengin",
+        "option3": "Güneş ışığı olmayan ortam",
+        "option4": "Karbondioksitçe zengin",
+        "rightAnswer": "Güneş ışığı olmayan ortam"
+    },
+    {
+        "id": 20060,
+        "question": "Bir popülasyonun taşıma kapasitesinin artması için aşağıdakilerden hangisinin gerçekleşmesi gerekir?",
+        "option1": "Av avcı ilişkisinin artması",
+        "option2": "Rekabete girdiği tür sayısının artması",
+        "option3": "Besin çeşidinin azalması",
+        "option4": "Habitatın genişlemesi",
+        "rightAnswer": "Habitatın genişlemesi"
+    },
+    {
+        "id": 20061,
+        "question": "Aşağıdakilerden hangisi popülasyona örnektir?",
+        "option1": "Akdeniz'deki balıklar",
+        "option2": "Manyas Kuş Cenneti'ndeki kuşlar",
+        "option3": "Karadeniz'deki hamsiler",
+        "option4": "Yağmur ormanlarındaki bitkiler",
+        "rightAnswer": "Karadeniz'deki hamsiler"
+    },
+    {
+        "id": 20062,
+        "question": "Aşağıdaki ekolojik terimlerden hangisinde bulunan canlıların protein benzerliği en fazladır?",
+        "option1": "Ekosistem",
+        "option2": "Biyosfer",
+        "option3": "Ekoton",
+        "option4": "Popülasyon",
+        "rightAnswer": "Popülasyon"
+    },
+    {
+        "id": 20063,
+        "question": "Bir canlı türünün rahatça beslendiği, barındığı ve ürediği yaşam alanına ne denir?",
+        "option1": "Fauna",
+        "option2": "Komünite",
+        "option3": "Biyosfer",
+        "option4": "Habitat",
+        "rightAnswer": "Habitat"
+    },
+    {
+        "id": 20064,
+        "question": "Erkek üreme sisteminde yer alan aşağıdaki yapıların hangisinde sperm hücreleri bir süre depolanabilir?",
+        "option1": "Testis",
+        "option2": "Epididimis",
+        "option3": "Seminifer tüpçükler",
+        "option4": "Prostat",
+        "rightAnswer": "Epididimis"
+    },
+    {
+        "id": 20065,
+        "question": "İnsan kan dolaşımına ait damarlardan kan basıncının en yüksek olduğu damar hangisidir?",
+        "option1": "Aort",
+        "option2": "Akciğer atardamarı",
+        "option3": "Karaciğer toplardamarı",
+        "option4": "Böbrek toplardamarı",
+        "rightAnswer": "Aort"
+    },
+    {
+        "id": 20066,
+        "question": "Kanın yoğunluğunun ve pH’ının damar boyunca değişime uğradığı damar hangisidir?",
+        "option1": "Akciğer kılcal damarı",
+        "option2": "Karaciğer atar damarı",
+        "option3": "Böbrek toplar damarı",
+        "option4": "Beyin atar damarı",
+        "rightAnswer": "Akciğer kılcal damarı"
+    },
+    {
+        "id": 20067,
+        "question": "Kemiklerin kırılganlığı ileriki yaşlarda artar. Kemik kırılganlığının artmasının nedeni aşağıdakilerden hangisidir?",
+        "option1": "Periostun incelmesi",
+        "option2": "Kemikte elastik lif artışı",
+        "option3": "Kemik iliği faaliyetinin artması",
+        "option4": "Kemikteki inorganik madde oranının artması",
+        "rightAnswer": "Kemikteki inorganik madde oranının artması"
+    },
+    {
+        "id": 20068,
+        "question": "Epitel dokuyla ilgili aşağıda verilenlerden hangisi yanlıştır?",
+        "option1": "Salgı yapma",
+        "option2": "Duyuları alma",
+        "option3": "Dış etkenlere karşı koruma",
+        "option4": "Diğer dokular arasındaki boşlukları doldurma",
+        "rightAnswer": "Diğer dokular arasındaki boşlukları doldurma"
+    },
+    {
+        "id": 20069,
+        "question": "Duyu organlarının sağlıklı yapısının korunmasıyla ilgili aşağıdakilerden hangisi yapılmamalıdır?",
+        "option1": "Düzenli sağlık kontrolü",
+        "option2": "Yükses sesten korunmak",
+        "option3": "Sürekli bilgisayar kullanmak",
+        "option4": "Burun tıkanıklığını açmak",
+        "rightAnswer": "Sürekli bilgisayar kullanmak"
+    },
+    {
+        "id": 20070,
+        "question": "Kemiğin eklem yerinden ayrılması sonucu oluşan rahatsızlık aşağıdakilerden hangisidir?",
+        "option1": "Kırık",
+        "option2": "Menisküs yırtığı",
+        "option3": "Çıkık",
+        "option4": "Burkulma",
+        "rightAnswer": "Çıkık"
+    },
+    {
+        "id": 20071,
+        "question": "Aşağıdakilerden hangisi iskelet sisteminin görevlerinden biri değildir?",
+        "option1": "Kan hücresi üretmek",
+        "option2": "Mineral depolamak",
+        "option3": "İç organları korumak",
+        "option4": "Vücut sıcaklığını düzenlemek",
+        "rightAnswer": "Vücut sıcaklığını düzenlemek"
+    },
+    {
+        "id": 20072,
+        "question": "Kemiklerin sağlıklı gelişiminde aşağıdakilerden hangisinin direk etkisi yoktur?",
+        "option1": "D vitamini",
+        "option2": "Güneş ışığı",
+        "option3": "Kalsitonin",
+        "option4": "Sodyum",
+        "rightAnswer": "Sodyum"
+    },
+    {
+        "id": 20073,
+        "question": "Aşağıdaki kemik çeşitlerinden hangisi yassı kemiğe örnek değildir?",
+        "option1": "Ön kol kemiği",
+        "option2": "Kafatası kemiği",
+        "option3": "Göğüs kemiği",
+        "option4": "Kürek kemiği",
+        "rightAnswer": "Ön kol kemiği"
+    },
+    {
+        "id": 20074,
+        "question": "Mide atardamarında aşağıdakilerden hangisine rastlanmaz?",
+        "option1": "Hormon",
+        "option2": "Pepsin",
+        "option3": "Aminoasit",
+        "option4": "Glikoz",
+        "rightAnswer": "Pepsin"
+    },
+    {
+        "id": 20075,
+        "question": "Aşağıdaki moleküllerden hangisi lenf sıvısında ve kanda ortak bulunmaz?",
+        "option1": "Hemoglobin",
+        "option2": "Glikoz",
+        "option3": "Antikor",
+        "option4": "Üre",
+        "rightAnswer": "Hemoglobin"
+    },
+    {
+        "id": 20076,
+        "question": "Aşağıdakilerden hangisi bir solunum sistemi rahatsızlığı olan KOAH’ın nedenlerinden biri değildir?",
+        "option1": "Tütün mamullerinin kullanımı",
+        "option2": "Hava kirliliği",
+        "option3": "Genetik faktörler",
+        "option4": "Vücut sıvılarının bileşiminde bozulma",
+        "rightAnswer": "Vücut sıvılarının bileşiminde bozulma"
+    },
+    {
+        "id": 20077,
+        "question": "Böbreğin yapısal birimi olan nefronda sodyumun geri emilmesini sağlayan hormon hangisidir?",
+        "option1": "Kortizol",
+        "option2": "Aldesteron",
+        "option3": "ADH",
+        "option4": "Kalsitonin",
+        "rightAnswer": "Aldesteron"
+    },
+    {
+        "id": 20078,
+        "question": "Dişilerde LH maksimum düzeye ulaştığında aşağıdakilerden hangisi gerçekleşir?",
+        "option1": "Menstrüasyon kanaması gözlenir",
+        "option2": "Ovaryumda yeni bir folikül gelişir",
+        "option3": "Korpus luteum bozulur",
+        "option4": "Ovulasyon gerçekleşir",
+        "rightAnswer": "Ovulasyon gerçekleşir"
+    },
+    {
+        "id": 20079,
+        "question": "Dişilerde hamilelik sırasında en hızlı değişimin gerçekleştiği, beyin ve omuriliğin şekillenmeye başladığı evre aşağıdakilerden hangisidir?",
+        "option1": "İkinci üç aylık dönemde",
+        "option2": "Blastosist aşamasında",
+        "option3": "İlk üç aylık dönemde",
+        "option4": "Gastrula evresinde",
+        "rightAnswer": "İlk üç aylık dönemde"
+    },
+    {
+        "id": 20080,
+        "question": "Aşağıdaki hormonlardan hangisi menstrual döngüde görev almaz?",
+        "option1": "LH",
+        "option2": "FSH",
+        "option3": "İlk üç aylık dönemde",
+        "option4": "Progesteron",
+        "rightAnswer": "ACTH"
+    },
+    {
+        "id": 20081,
+        "question": "Sindirim sisteminin sağlıklı yapısını korumak için aşağıdakilerden hangisi yapılmalıdır?",
+        "option1": "Fast food beslenmek",
+        "option2": "Öğün atlamak",
+        "option3": "Stresi kontrol altında tutmak",
+        "option4": "Aşırı yağlı besinler tüketmek",
+        "rightAnswer": "Stresi kontrol altında tutmak"
+    },
+    {
+        "id": 20082,
+        "question": "Aşağıdakilerden hangisi sindirim sistemi rahatsızlığı değildir?",
+        "option1": "Gastrit",
+        "option2": "Hemoroit",
+        "option3": "Ülser",
+        "option4": "Osteoporoz",
+        "rightAnswer": "Osteoporoz"
+    },
+    {
+        "id": 20083,
+        "question": "Bir nöron aşağıda verilen olaylardan hangisini gerçekleştiremez?",
+        "option1": "Defosforilasyon",
+        "option2": "Replikasyon",
+        "option3": "Enzim sentezi",
+        "option4": "Aktif taşıma",
+        "rightAnswer": "Replikasyon"
+    },
+    {
+        "id": 20084,
+        "question": "Akşam vakitlerinde fazla miktarda çay ya da kahve içildikten sonra uykunun kaçması, uykuya dalınamaması gibi durumlarla karşılaşılabilir. Bu durum aşağıda verilen merkezi sinir sistemi yapılarından hangisinin ürettiği impulsların bastırılmasıyla ortaya çıkar?",
+        "option1": "Hipotalamus",
+        "option2": "Talamus",
+        "option3": "Omurilik",
+        "option4": "Beyincik",
+        "rightAnswer": "Hipotalamus"
+    },
+    {
+        "id": 20085,
+        "question": "İnsan vücudunda su dengesi, vücut sıcaklığı ve hormonların salgılanması olaylarını kontrol eden merkez aşağıdakilerden hangisidir?",
+        "option1": "Talamus",
+        "option2": "Omirilik",
+        "option3": "Hipotalamus",
+        "option4": "Omirilik soğanı",
+        "rightAnswer": "Hipotalamus"
+    },
+    {
+        "id": 20086,
+        "question": "İnsanda bazı salgı bezleri ürettikleri salgılardan bir kısmını kana, diğer kısmını ise bir kanal ile vücut boşluğuna ya da dışarı boşaltırlar. Bu tür bezlere karma bez denir. Buna göre, aşağıdaki seçeneklerden hangisi karma bez örneğidir?",
+        "option1": "Tiroit bezi",
+        "option2": "Süt bezleri",
+        "option3": "Eşeysel bezler",
+        "option4": "Hipofiz bezi",
+        "rightAnswer": "Eşeysel bezler"
+    },
+    {
+        "id": 20087,
+        "question": "Aşağıdaki seçeneklerin hangisinde hormonlar ile ilgili verilen ifade yanlıştır?",
+        "option1": "Hedef organlara kan yoluyla taşınır",
+        "option2": "Üretimleri ergenlik dönemiyle başlar",
+        "option3": "Homeostasiyi korur",
+        "option4": "Metabolizmayı düzenler",
+        "rightAnswer": "Üretimleri ergenlik dönemiyle başlar"
+    },
+    {
+        "id": 20088,
+        "question": "Hormonların fazla ya da az salgılanması sonucu bazı hastalıklar ortaya çıkar. Buna göre aşağıdaki hastalıkların hangisi hormonal bozukluk sonucu ortaya çıkmaz?",
+        "option1": "Guatr",
+        "option2": "Akromegali",
+        "option3": "Skorbüt",
+        "option4": "Şeker hastalığı",
+        "rightAnswer": "Skorbüt"
+    },
+    {
+        "id": 20089,
+        "question": "Açlık kan şekeri tahlilinde kanda yüksek şeker ve idrarda glikoz tespit edilmesi durumunda aşağıdaki hormonlardan hangisinin yetersiz salgılandığı söylenebilir?",
+        "option1": "Glukagon",
+        "option2": "İnsülin",
+        "option3": "FSH",
+        "option4": "ADH",
+        "rightAnswer": "İnsülin"
+    },
+    {
+        "id": 20090,
+        "question": "Kanda, adrenalin hormonu miktarının artması ile aşağıdaki olaylardan hangisi görülmez?",
+        "option1": "Kalp atışlarının hızlanması",
+        "option2": "Göz bebeklerinin büyümesi",
+        "option3": "Kan şekerinin yükselmesi",
+        "option4": "Sindirim organlarının hızlı çalışması",
+        "rightAnswer": "Sindirim organlarının hızlı çalışması"
+    },
+    {
+        "id": 20091,
+        "question": "Aşağıdaki hormonlardan hangisi sperm ve yumurta hücresi üretiminde görevli olan hormonlardan biri değildir?",
+        "option1": "Östrojen",
+        "option2": "Parathormon",
+        "option3": "Testosteron",
+        "option4": "LH",
+        "rightAnswer": "Parathormon"
+    },
+    {
+        "id": 20092,
+        "question": "Sarı benek üzerinde oluşan görüntü, duyu sinirleriyle taşınıp merkezi sinir sisteminin hangi bölümüne ilk önce ulaştırılır?",
+        "option1": "Hipotalamus",
+        "option2": "Beyincik",
+        "option3": "Talamus",
+        "option4": "Omurilik",
+        "rightAnswer": "Talamus"
+    },
+    {
+        "id": 20093,
+        "question": "Aşağıdaki duyu çiftlerinden hangi ikisinin uyarılma biçimi benzerdir?",
+        "option1": "Görme - Koku alma",
+        "option2": "Dokunma - Tatma",
+        "option3": "İşitme - Görme",
+        "option4": "Koku alma - Tatma",
+        "rightAnswer": "Koku alma - Tatma"
+    },
+    {
+        "id": 20094,
+        "question": "Aşağıdakilerden hangisi iki kemik arasında sürtünmeyi azaltarak kemiklerin aşınmasını önler ve hareketi kolaylaştırır?",
+        "option1": "Eklem sıvısı",
+        "option2": "Ligament",
+        "option3": "Periost",
+        "option4": "Sinovial zar",
+        "rightAnswer": "Eklem sıvısı"
+    },
+    {
+        "id": 20095,
+        "question": "İnsanda kemiklerin yapımı ve gelişmesinde aşağıda verilen hormonlardan hangisinin etkisi yoktur?",
+        "option1": "STH",
+        "option2": "Progesteron",
+        "option3": "Tiroksin",
+        "option4": "Parathormon",
+        "rightAnswer": "Progesteron"
+    },
+    {
+        "id": 20096,
+        "question": "Aşağıda verilen organların hangisinde bulunan kaslar oksijen yetersizliğinde de fosforilasyon yapabilir?",
+        "option1": "Mide",
+        "option2": "Atardamar",
+        "option3": "Bacak",
+        "option4": "Kalp",
+        "rightAnswer": "Bacak"
+    },
+    {
+        "id": 20097,
+        "question": "Aşağıda verilen sindirim organı çiftlerinden hangisi yağların sindirimi için gerekli salgıları üretir?",
+        "option1": "Ağız - Mide",
+        "option2": "Mide - Karaciğer",
+        "option3": "İnce bağırsak - Pankreas",
+        "option4": "Pankreas - Karaciğer",
+        "rightAnswer": "Pankreas - Karaciğer"
+    },
+    {
+        "id": 20098,
+        "question": "Aşağıda verilen hormonlardan hangisi sindirim sisteminde görevli organlar tarafından üretilemez?",
+        "option1": "Gastrin",
+        "option2": "Glukagon",
+        "option3": "Enterogastrin",
+        "option4": "Kalsitonin",
+        "rightAnswer": "Kalsitonin"
+    },
+    {
+        "id": 20099,
+        "question": "İnsanların hem ince bağırsak, hem de kalın bağırsağında aşağıdaki besin maddelerinden hangisinin emilimi görülür?",
+        "option1": "Vitamin",
+        "option2": "Glikoz",
+        "option3": "Aminoasit",
+        "option4": "Gliserol",
+        "rightAnswer": "Vitamin"
+    },
+    {
+        "id": 20100,
+        "question": "Karbonhidrat, yağ ve proteinlerin sindirimi sonucunda açığa çıkan monomerlerin tamamının dolaşım sisteminde ortak olarak görüldüğü ilk yer aşağıdakilerden hangisidir?",
+        "option1": "Sağ kulakçık",
+        "option2": "Lenf kılcalı",
+        "option3": "Sol köprücük altı topları",
+        "option4": "Kapı topları",
+        "rightAnswer": "Sağ kulakçık"
+    },
+    {
+        "id": 20101,
+        "question": "Besinlerle alınan aşağıdaki maddelerden hangisi kimyasal değişime uğramadan ince bağırsaktan kana emilir?",
+        "option1": "DNA",
+        "option2": "Laktoz",
+        "option3": "Mineral",
+        "option4": "RNA",
+        "rightAnswer": "Mineral"
+    },
+    {
+        "id": 20102,
+        "question": "Aşağıda insan kalbinin çalışma hızını etkileyen faktörlerden hangisinin miktarındaki artış, diğerlerine göre zıt yönde etki eder?",
+        "option1": "Kafein",
+        "option2": "Karbondioksit",
+        "option3": "Asetilkolin",
+        "option4": "Adrenalin",
+        "rightAnswer": "Asetilkolin"
+    },
+    {
+        "id": 20103,
+        "question": "Kalbi besin ve oksijen bakımından besleyen damar aşağıdakilerden hangisidir?",
+        "option1": "Aort atar damarı",
+        "option2": "Koroner damarlar",
+        "option3": "Akciğer atardamarı",
+        "option4": "Akciğer toplardamarı",
+        "rightAnswer": "Koroner damarlar"
+    },
+    {
+        "id": 20104,
+        "question": "Aşağıdakilerden hangisi insan karaciğerinin kan homeostasisini düzenlemeye yönelik işlevlerden biri olamaz?",
+        "option1": "Kan proteinleri sentezlemek",
+        "option2": "Amonyağı üreye çevirmek",
+        "option3": "Bazı vitaminleri depolamak",
+        "option4": "Sindirim enzimleri üretmek",
+        "rightAnswer": "Sindirim enzimleri üretmek"
+    },
+    {
+        "id": 20105,
+        "question": "İnsanda, atardamar ile toplardamar arasında bulunan kılcal damarlar boyunca, kan basıncı azalmayıp sabit olarak kalsaydı, aşağıdaki durumlardan hangisi gözlenmezdi?",
+        "option1": "Ödem oluşması",
+        "option2": "Doku sıvısının artması",
+        "option3": "Doku sıvısından kana madde geçişinin artması",
+        "option4": "Dokularda atık madde miktarında artış",
+        "rightAnswer": "Doku sıvısından kana madde geçişinin artması"
+    },
+    {
+        "id": 20106,
+        "question": "Aşağıdakilerden hangisi insanda dolaşım sisteminin görevlerinden biri değildir?",
+        "option1": "Vücut sıcaklığının düzenlenmesi",
+        "option2": "Oksijen ve karbondioksidin taşınması",
+        "option3": "Vücudun su ve elektrolit dengesinin ayarlanması",
+        "option4": "Sindirilemeyen maddelerin vücuttan uzaklaştırılması",
+        "rightAnswer": "Sindirilemeyen maddelerin vücuttan uzaklaştırılması"
+    },
+    {
+        "id": 20107,
+        "question": "İnsanda lenf sıvısı içeriğinde aşağıda verilenlerden hangisi bulunmaz?",
+        "option1": "Akyuvar",
+        "option2": "Vitamin",
+        "option3": "Glisero",
+        "option4": "Alyuvar",
+        "rightAnswer": "Alyuvar"
+    },
+    {
+        "id": 20108,
+        "question": "Aşağıdakilerden hangisi antikorların özelliklerinden biri değildir?",
+        "option1": "Antijene özgüdür",
+        "option2": "Ribozomda sentezlenir",
+        "option3": "Antimikrobiyal proteinlerdir",
+        "option4": "T lenfositler tarafından üretilir",
+        "rightAnswer": "T lenfositler tarafından üretilir"
+    },
+    {
+        "id": 20109,
+        "question": "Aşağıdakilerden hangisi insanda lenf dolaşım sistemi kısımlarından biri değildir?",
+        "option1": "Dalak",
+        "option2": "Karaciğer",
+        "option3": "Timüs bezi",
+        "option4": "Lenf düğümleri",
+        "rightAnswer": "Karaciğer"
+    }
+]
+}

@@ -1,0 +1,878 @@
+{
+    "title" : "tyt",
+    "questions" : [
+        {
+            "id": 10001,
+            "question": "Aşağıdakilerden hangisi ökaryot değildir ?",
+            "option1": "Bitkiler",
+            "option2": "Hayvanlar",
+            "option3": "Arkeler",
+            "option4": "Protistalar",
+            "rightAnswer": "Arkeler"
+        },
+        {
+            "id": 10002,
+            "question": "İnsanlar hangi beslenme türüne girer",
+            "option1": "Ototrof",
+            "option2": "Heterotrof",
+            "option3": "Hem Ototrof Hem Heterotrof",
+            "option4": "Kemosentez",
+            "rightAnswer": "Heterotrof"
+        },
+        {
+            "id": 10003,
+            "question": "Aşağıdakilerden hangisi organik değildir ?",
+            "option1": "Karbonhidrat",
+            "option2": "Nükleik Asit",
+            "option3": "Baz",
+            "option4": "ATP",
+            "rightAnswer": "Baz"
+        },
+        {
+            "id": 10004,
+            "question": "Aşağıdakilerden hangisi süt şekeri olarak geçer ?",
+            "option1": "Glikoz",
+            "option2": "Kitin",
+            "option3": "Galaktoz",
+            "option4": "Laktoz",
+            "rightAnswer": "Laktoz"
+        },
+        {
+            "id": 10005,
+            "question": "Kendi icat ettiği mikroskop ile tek hücreli canlıların keşfini yapan bilim insanı hangisidir ?",
+            "option1": "Matthia Schleiden",
+            "option2": "Anton Van Leeuwenhoek",
+            "option3": "Robert Hooke",
+            "option4": "Rudolf Virchow",
+            "rightAnswer": "Anton Van Leeuwenhoek"
+        },
+        {
+            "id": 10006,
+            "question": "Prokaryot hücrelerde hangisi yoktur?",
+            "option1": "Hücre Zarı",
+            "option2": "Çekirdek",
+            "option3": "Sitoplazma",
+            "option4": "Ribozom",
+            "rightAnswer": "Çekirdek"
+        },
+        {
+            "id": 10007,
+            "question": "Aşağıdakilerden hangisi protista aleminde bulunmaz?",
+            "option1": "Öglena",
+            "option2": "Paramesyum",
+            "option3": "Alg",
+            "option4": "Cıvık Mantarlar",
+            "rightAnswer": "Alg"
+        },
+        {
+            "id": 10008,
+            "question": "Aşağıdakilerden hangisi mantarların özelliklerinden değildir?",
+            "option1": "Hücre çeperi taşımazlar",
+            "option2": "Depo polisakkaritleri glikojendir",
+            "option3": "Heterotrof beslenirler",
+            "option4": "Sentrozom taşımazlar",
+            "rightAnswer": "Hücre çeperi taşımazlar"
+        },
+        {
+            "id": 10009,
+            "question": "Aşağıdakilerden hangisi hava kirliliğinin sonucu değildir?",
+            "option1": "Sera Etkisi",
+            "option2": "Ötrofikasyon",
+            "option3": "Karbon Ayak İzi",
+            "option4": "Asit Yağmurları",
+            "rightAnswer": "Ötrofikasyon"
+        },
+        {
+            "id": 10010,
+            "question": "Aşağıdakilerden hangisi ötrofikasyonun sonuçlarından biri değidlir?",
+            "option1": "Sudaki organik besin miktarı artar",
+            "option2": "Sudaki oksijen azalır",
+            "option3": "Sudaki kokuşma artar",
+            "option4": "Sudaki canlı çeşidi artar",
+            "rightAnswer": "Sudaki canlı çeşidi artar"
+        },
+        {
+            "id": 10011,
+            "question": "Mitoz bölünme geçiren bir hücrede hangi evre görülmez",
+            "option1": "Anafaz",
+            "option2": "Anafaz-2",
+            "option3": "Telofaz",
+            "option4": "Metafaz",
+            "rightAnswer": "Anafaz-2"
+        },
+        {
+            "id": 10012,
+            "question": "Normal bir hücrede genetik madde hangi haldedir?",
+            "option1": "Kromozom",
+            "option2": "Kromatit",
+            "option3": "Kromatin İplik",
+            "option4": "Tetrat",
+            "rightAnswer": "Kromatin İplik"
+        },
+        {
+            "id": 10013,
+            "question": "AaBbccddEeFfGg genotipli birey kaç çeşit gamet oluşturabilir?",
+            "option1": "64",
+            "option2": "8",
+            "option3": "16",
+            "option4": "32",
+            "rightAnswer": "32"
+        },
+        {
+            "id": 10014,
+            "question": "Mendel yasalarında hangisinden bahsedilebilir",
+            "option1": "Tam Baskınlık",
+            "option2": "Eş Baskınlık",
+            "option3": "Eksik Baskınlık",
+            "option4": "Çok Alellik",
+            "rightAnswer": "Tam Baskınlık"
+        },
+        {
+            "id": 10015,
+            "question": "Besin zincirini  oluşturan aşağıdaki canlıların hangisinin dokularında toksik maddenin en fazla olması beklenir?",
+            "option1": "Yılan",
+            "option2": "Kurbağa",
+            "option3": "Yırtıcı Kuş",
+            "option4": "Su Bitkisi",
+            "rightAnswer": "Yırtıcı Kuş"
+        },
+        {
+            "id": 10016,
+            "question": "Aşağıdakilerden hangisi ekolojik dengenin bozulmasını engelleyecek tedbirlerden biri değildir?",
+            "option1": "Ağaçlandırma çalışmalarını yaygınlaştırmak",
+            "option2": "Tarımda kimyasal ilaç kullanımını arttırmak",
+            "option3": "Fosil yakıt tüketimini azaltmak",
+            "option4": "Tasarruflu ampul kullanımını teşvik etmek",
+            "rightAnswer": "Tarımda kimyasal ilaç kullanımını arttırmak"
+        },
+        {
+            "id": 10017,
+            "question": "Sonbaharda ormanda doğa yürüyüşü yaparken yerlerde bol miktarda sararmış yaprakları görmemiz, canlıların ortak özelliklerinden hangisini göstermektedir?",
+            "option1": "Hareket",
+            "option2": "Boşaltım",
+            "option3": "Solunum",
+            "option4": "Etkiye karşı tepki",
+            "rightAnswer": "Boşaltım"
+        },
+        {
+            "id": 10018,
+            "question": "Aşağıdakilerden hangisi canlıların ortak özelliklerinden değildir?",
+            "option1": "Solunum",
+            "option2": "Aktif hareket etme",
+            "option3": "Boşaltım",
+            "option4": "Hücresel yapıda olma",
+            "rightAnswer": "Aktif hareket etme"
+        },
+        {
+            "id": 10019,
+            "question": "Aşağıdakilerden hangisi bakteri ve serçe için ortak bir özellik değildir?",
+            "option1": "Boşaltım organına sahip olmak",
+            "option2": "Solunum yapmak",
+            "option3": "Üremek",
+            "option4": "Hareket etmek",
+            "rightAnswer": "Boşaltım organına sahip olmak"
+        },
+        {
+            "id": 10020,
+            "question": "Aşağıdakilerden hangisi bakteri ve serçe için ortak bir özellik değildir?",
+            "option1": "Boşaltım organına sahip olmak",
+            "option2": "Solunum yapmak",
+            "option3": "Üremek",
+            "option4": "Hareket etmek",
+            "rightAnswer": "Boşaltım organına sahip olmak"
+        },
+        {
+            "id": 10021,
+            "question": "Hidroliz ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+            "option1": "Sadece hücre içinde gerçekleşir",
+            "option2": "Su miktarı artar",
+            "option3": "ATP kullanılır",
+            "option4": "Tüm canlılarda gerçekleşir",
+            "rightAnswer": "Tüm canlılarda gerçekleşir"
+        },
+        {
+            "id": 10022,
+            "question": "Aşağıdakilerden hangisi insan metabolizmasını etkileyen çevresel faktörlerdendir?",
+            "option1": "Çizgili kas faaliyetlerinin artması",
+            "option2": "Vücut sıcaklığının artması",
+            "option3": "Kandaki adrenalin miktarının artması",
+            "option4": "Ortam sıcaklığının artması",
+            "rightAnswer": "Ortam sıcaklığının artması"
+        },
+        {
+            "id": 10023,
+            "question": "Vitamin ve mineraller için aşağıdakilerden hangisi ortak özellik değildir?",
+            "option1": "Dışarıdan hazır alınırlar",
+            "option2": "Hücre için yapı maddesidirler",
+            "option3": "Enzim yapısına katılırlar",
+            "option4": "Sindirilmeden hücre zarından geçerler",
+            "rightAnswer": "Hücre için yapı maddesidirler"
+        },
+        {
+            "id": 10024,
+            "question": "ATP canlılarda hangi olaylarda kullanılmaz?",
+            "option1": "Hidroliz reaksiyonları",
+            "option2": "Biyosentez reaksiyonları",
+            "option3": "Aktif taşıma",
+            "option4": "Hareket kasılma",
+            "rightAnswer": "Hidroliz reaksiyonları"
+        },
+        {
+            "id": 10025,
+            "question": "Suyun yüzeyinde bir böceğin yürüdüğünü gören bir öğrenci, suyun hangi özelliğini gözlemlemiş olur?",
+            "option1": "Öz ısısının yüksek olması",
+            "option2": "Kohezyon özelliği",
+            "option3": "Yüzey gerilimi",
+            "option4": "İyi bir çözücü olması",
+            "rightAnswer": "Yüzey gerilimi"
+        },
+        {
+            "id": 10026,
+            "question": "Aşağıdakilerden hangisi tüm RNA çeşitleri için ortak özelliktir?",
+            "option1": "Ribozomun yapısına katılma",
+            "option2": "H bağı taşıma",
+            "option3": "DNA üzerinden sentezlenme",
+            "option4": "Amino asitleri ribozoma taşıma",
+            "rightAnswer": "DNA üzerinden sentezlenme"
+        },
+        {
+            "id": 10027,
+            "question": "Aşağıdaki karbonhidrat çeşitlerinden hangisi bitki hücresinde sentezlenemez?",
+            "option1": "Laktoz",
+            "option2": "Glikoz",
+            "option3": "Maltoz",
+            "option4": "Sükroz",
+            "rightAnswer": "Laktoz"
+        },
+        {
+            "id": 10028,
+            "question": "İnsanların beslenme sırasında ağzına aldığı lokmaları fazla çiğneyerek sindirimin kolaylaştırılması, enzimlerin çalışmasını etkileyen faktörlerden hangisi ile eşleştirilebilir?",
+            "option1": "Sıcaklık",
+            "option2": "Substrat derişimi",
+            "option3": "Substrat  yüzeyi",
+            "option4": "Enzim derişimi",
+            "rightAnswer": "Substrat  yüzeyi"
+        },
+        {
+            "id": 10029,
+            "question": "Aşağıdaki organik bileşiklerden hangisi sindirilmeden hücre zarından geçebilir?",
+            "option1": "Sükroz",
+            "option2": "Riboz",
+            "option3": "Laktoz",
+            "option4": "Glikojen",
+            "rightAnswer": "Riboz"
+        },
+        {
+            "id": 10030,
+            "question": "Ökayot bir hücrede bir nükleotit hidroliz edilir ise hangisi kesin olarak elde edilir?",
+            "option1": "Deoksiriboz",
+            "option2": "Riboz",
+            "option3": "Fosforik asit",
+            "option4": "Guanin",
+            "rightAnswer": "Fosforik asit"
+        },
+        {
+            "id": 10031,
+            "question": "Ökaryot bir hücrede aşağıdaki bileşiklerden hangisi DNA'nın yapısında bulunur?",
+            "option1": "Yağ",
+            "option2": "Protein",
+            "option3": "Karbonhidrat",
+            "option4": "Vitamin",
+            "rightAnswer": "Karbonhidrat"
+        },
+        {
+            "id": 10032,
+            "question": "Ökaryot bir hücrede aşağıdaki bileşiklerden hangisi DNA'nın yapısında bulunur?",
+            "option1": "Yağ",
+            "option2": "Protein",
+            "option3": "Karbonhidrat",
+            "option4": "Vitamin",
+            "rightAnswer": "Karbonhidrat"
+        },
+        {
+            "id": 10033,
+            "question": "Aşağıda verilen özelliklerden hangisi tüm canlılarda ortak olarak görülmektedir?",
+            "option1": "Eşeyli üreme",
+            "option2": "Oksijenli solunum yapma",
+            "option3": "Sentez tepkimesi gerçekleştirme",
+            "option4": "Ototrof beslenme",
+            "rightAnswer": "Sentez tepkimesi gerçekleştirme"
+        },
+        {
+            "id": 10034,
+            "question": "Aşağıdaki moleküllerden hangisi hem düzenleyici hem de enerji verici olarak kullanılır?",
+            "option1": "Protein",
+            "option2": "Vitamin",
+            "option3": "Mineral",
+            "option4": "Su",
+            "rightAnswer": "Protein"
+        },
+        {
+            "id": 10035,
+            "question": "Aşağıdaki moleküllerden hangisi hidrolize uğratılabilir?",
+            "option1": "Glikoz",
+            "option2": "Amino asit",
+            "option3": "ATP",
+            "option4": "Yağ asidi",
+            "rightAnswer": "ATP"
+        },
+        {
+            "id": 10036,
+            "question": "Aşağıdakilerden hangisi tüm canlılar için ortaktır?",
+            "option1": "Heterotrof beslenme",
+            "option2": "Aktif hareket etme",
+            "option3": "Boşaltım yapma",
+            "option4": "Eşeyli üreme",
+            "rightAnswer": "Boşaltım yapma"
+        },
+        {
+            "id": 10037,
+            "question": "Aşağıdakilerden hangisi mitokondri ve kloroplast organellerinin ortak özelliklerinden değildir?",
+            "option1": "Çift zar sistemine sahip olma",
+            "option2": "Kendine ait DNA yapısına sahip olma",
+            "option3": "Bitki ve hayvanlarda birlikte görülme",
+            "option4": "Fosforilasyon enzimi bulundurma",
+            "rightAnswer": "Bitki ve hayvanlarda birlikte görülme"
+        },
+        {
+            "id": 10038,
+            "question": "Aşağıda verilen molekül çiftlerinden hangileri aynı hücrede sentezlenemez?",
+            "option1": "Protein – Glikojen",
+            "option2": "Maltoz – Laktoz",
+            "option3": "Yağ – Protein",
+            "option4": "Glikoz – Nişasta",
+            "rightAnswer": "Maltoz – Laktoz"
+        },
+        {
+            "id": 10039,
+            "question": "Hücrede gerçekleşen olaylardan hangisi hücre yüzeyini değiştirmez?",
+            "option1": "Fagositoz",
+            "option2": "Pinositoz",
+            "option3": "Endositoz",
+            "option4": "Difüzyon",
+            "rightAnswer": "Difüzyon"
+        },
+        {
+            "id": 10040,
+            "question": "Zarlı organel taşımayan bir hücreyle ilgili hangi özelliği vurgulamış oluruz?",
+            "option1": "Prokaryot yapılı olduğunu",
+            "option2": "Hayvan hücresi olduğunu",
+            "option3": "Mantar hücresi olduğunu",
+            "option4": "Hücre çeperine sahip olduğunu",
+            "rightAnswer": "Prokaryot yapılı olduğunu"
+        },
+        {
+            "id": 10041,
+            "question": "Ökaryot hücrelerde çekirdeğin DNA' yı nesiller boyunca değiştirmeden aktarması aşağıdakilerden hangisinin sonucudur?",
+            "option1": "DNA'da dört çeşit nükleotit bulunması",
+            "option2": "Replikasyonunu hatasız gerçekleştirmesi",
+            "option3": "Protein sentezi için şifre vermesi",
+            "option4": "Farklı genlerden meydana gelmesi",
+            "rightAnswer": "Replikasyonunu hatasız gerçekleştirmesi"
+        },
+        {
+            "id": 10042,
+            "question": "Aşağıdakilerden hangisi tek hücreliden çok hücreliye geçişte karşılaşılan sorunlardan biri değildir?",
+            "option1": "İç dengenin kararlı tutulması",
+            "option2": "Enerji tasarrufu sağlanması",
+            "option3": "Atıkların uzaklaştırılması",
+            "option4": "Besin ve oksijenin diğer hücrelere dağılımı",
+            "rightAnswer": "Enerji tasarrufu sağlanması"
+        },
+        {
+            "id": 10043,
+            "question": "Başlangıçta ozmotik denge halinde olan bir hücrede protein sentezi artmaya başlamıştır.\nBu durumda aşağıdakilerden hangisi gerçekleşmez?",
+            "option1": "Hücreden dışarıya su çıkışı olur",
+            "option2": "Hücrenin emme kuvveti azalır",
+            "option3": "Ribozom faaliyeti artar",
+            "option4": "Hücre dışarıdan su alır",
+            "rightAnswer": "Hücre dışarıdan su alır"
+        },
+        {
+            "id": 10044,
+            "question": "Aşağıdaki organellerden hangisi RNA taşır?",
+            "option1": "Ribozom",
+            "option2": "Golgi",
+            "option3": "Koful",
+            "option4": "Sentrozom",
+            "rightAnswer": "Ribozom"
+        },
+        {
+            "id": 10045,
+            "question": "İnsan embriyosunun gelişimi sırasında el ve ayak parmakları arasındaki bazı hücrelerin parçalanmasını sağlayarak boşlukların oluşumuyla el ve ayak parmaklarının şekil almasında etkili olan organel aşağıdakilerden hangisidir?",
+            "option1": "Lizozom",
+            "option2": "Sentrozom",
+            "option3": "Ribozom",
+            "option4": "Golgi cisimciği",
+            "rightAnswer": "Lizozom"
+        },
+        {
+            "id": 10046,
+            "question": "Suda çözünen bir molekülün ATP harcanmadan taşıyıcı proteinler yardımı ile  hücre zarından konsantrasyon farkına bağlı olarak geçişi sırasında aşağıdaki yollardan hangisi kullanılmıştır?",
+            "option1": "Osmoz",
+            "option2": "Aktif taşıma",
+            "option3": "Kolaylaştırılmış difüzyon",
+            "option4": "Fagositoz",
+            "rightAnswer": "Osmoz"
+        },
+        {
+            "id": 10047,
+            "question": "Aşağıdaki maddelerden hangisi koful oluşumu ile hücre içine alınır?",
+            "option1": "Glikoz",
+            "option2": "Vitamin",
+            "option3": "Yağ asitleri",
+            "option4": "Protein",
+            "rightAnswer": "Protein"
+        },
+        {
+            "id": 10048,
+            "question": "Aşağıdakilerden hangisi hücre zarının görevlerinden değildir?",
+            "option1": "Hücreyi korur",
+            "option2": "Hücreye şekil verir",
+            "option3": "Hücreye enerji verir",
+            "option4": "Madde alışverişini sağlar",
+            "rightAnswer": "Hücreye enerji verir"
+        },
+        {
+            "id": 10049,
+            "question": "Enzimlerle ilgili aşağıda verilen bilgilerden hangisi doğrudur?",
+            "option1": "Enzimler tekrar kullanılmaz",
+            "option2": "Enzimler genelde tersinir çalışır",
+            "option3": "Enzimler takım halinde çalışmaz",
+            "option4": "İnhibitörler enzimin etkinliğini arttırır",
+            "rightAnswer": "Enzimler genelde tersinir çalışır"
+        },
+        {
+            "id": 10050,
+            "question": "Aşağıda verilenlerden hangisi mantarlar âleminin özelliklerinden biri değildir?",
+            "option1": "Sporla üreme",
+            "option2": "Selüloz hücre çeperi bulundurma",
+            "option3": "Glikojen sentezleme",
+            "option4": "Ökaryot yapılı olma",
+            "rightAnswer": "Selüloz hücre çeperi bulundurma"
+        },
+        {
+            "id": 10051,
+            "question": "Protista âleminden olan algler bazı bölgelerde besin olarak kullanılmaktadır. Algler aşağıda verilen hangi özelliklerinden dolayı besin olarak kullanılmaktadır?",
+            "option1": "Yüksek protein içermeleri",
+            "option2": "Bol miktarda nişasta içermeleri",
+            "option3": "Bol miktarda lipit içermeleri",
+            "option4": "Bol miktarda enerji vermeleri",
+            "rightAnswer": "Yüksek protein içermeleri"
+        },
+        {
+            "id": 10052,
+            "question": "Bakterilerin bazıları hasta olmamıza neden olurken,birçoğu da oldukça yararlıdır. Yararlı olan bakterilerden bazıları insan kalın bağırsağında vitamin de sentezler.\nBu vitaminler aşağıda verilenlerden  hangileridir?",
+            "option1": "B ve C",
+            "option2": "A, B ve C",
+            "option3": "A, D, E ve K",
+            "option4": "B ve K",
+            "rightAnswer": "B ve K"
+        },
+        {
+            "id": 10053,
+            "question": "Aşağıda verilen özelliklerden hangisi mantarlar âleminin özelliklerinden biri değildir?",
+            "option1": "Sporla üreme",
+            "option2": "Selüloz hücre çeperi bulundurma",
+            "option3": "Glikojen sentezleme",
+            "option4": "Ökaryot yapılı olma",
+            "rightAnswer": "Ökaryot yapılı olma"
+        },
+        {
+            "id": 10054,
+            "question": "Mantarlarla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "option1": "Klorofil içerme",
+            "option2": "Nişasta depolama",
+            "option3": "Kitin yapılı hücre duvarı bulundurma",
+            "option4": "Mineral sentezleme",
+            "rightAnswer": "Kitin yapılı hücre duvarı bulundurma"
+        },
+        {
+            "id": 10055,
+            "question": "Bir canlının embriyonik gelişim basamakları dikkate alındığında; aşağıdaki sınıflandırma basamaklarından hangisinde canlı özellikleri en son ortaya çıkar?",
+            "option1": "Âlem",
+            "option2": "Sınıf",
+            "option3": "Şube",
+            "option4": "Familya",
+            "rightAnswer": "Familya"
+        },
+        {
+            "id": 10056,
+            "question": "Aşağıdakilerden hangisi homolog organlara örnek verilir?",
+            "option1": "Kelebeğin kanadı, balinanın yüzgeci",
+            "option2": "Yarasanın kanadı, insanın kolu",
+            "option3": "Atın ön bacağı, karıncanın bacağı",
+            "option4": "Tavşanın bacağı, çekirgenin bacağı",
+            "rightAnswer": "Yarasanın kanadı, insanın kolu"
+        },
+        {
+            "id": 10057,
+            "question": "Aşağıda ifade edilen özelliklerden hangisi, birbirinden farklı âlemlere ait iki canlının ortak özelliği olamaz?",
+            "option1": "Tek hücreli olma",
+            "option2": "Hücre duvarı bulundurma",
+            "option3": "Fotosentez yapma",
+            "option4": "Sinir sistemine sahip olma",
+            "rightAnswer": "Sinir sistemine sahip olma"
+        },
+        {
+            "id": 10058,
+            "question": "Fungi âlemini (gerçek mantarlar) oluşturan canlılar ile ilgili olarak aşağıdakilerin hangisi doğrudur?",
+            "option1": "Prokaryort hücre yapısındadır",
+            "option2": "Çoğunlukla sporla ürerler",
+            "option3": "Kontraktil kofulları vardır",
+            "option4": "Hücre çeperleri bulunmaz",
+            "rightAnswer": "Çoğunlukla sporla ürerler"
+        },
+        {
+            "id": 10059,
+            "question": "Kontraktil kofulu aktif çalışan bir canlının yer aldığı  âlem ve bulunduğu ortam hangi seçenekte doğru verilmiştir?",
+            "option1": "Bitki— Hipertonik",
+            "option2": "Protista—Hipotonik",
+            "option3": "Bitki –Hipotonik",
+            "option4": "Protista— Hipertonik",
+            "rightAnswer": "Protista—Hipotonik"
+        },
+        {
+            "id": 10060,
+            "question": "Aşağıdakilerden hangisi memeli canlı sınıfına ait bir özellik değildir?",
+            "option1": "Akciğerlerinde alveol bulunur",
+            "option2": "Vücut örtüleri kıllıdır",
+            "option3": "İç gelişme görülür",
+            "option4": "Olgunlaşmış alyuvarları çekirdeklidir",
+            "rightAnswer": "Olgunlaşmış alyuvarları çekirdeklidir"
+        },
+        {
+            "id": 10061,
+            "question": "Aşağıda verilenlerden hangisi canlıların ortak özellikleri arasında gösterilemez?",
+            "option1": "Enzim sentezleme",
+            "option2": "Hücre bulundurma",
+            "option3": "Uyarılara tepki gösterme",
+            "option4": "Mayoz bölünme geçirme",
+            "rightAnswer": "Mayoz bölünme geçirme"
+        },
+        {
+            "id": 10062,
+            "question": "Asitlerle ilgili olarak verilenlerden hangisi yanlıştır?",
+            "option1": "Tatları ekşidir",
+            "option2": "pH değerleri 7’nin altındadır",
+            "option3": "Sulu çözeltilerine OH-- iyonu verir",
+            "option4": "Bazlarla birleştiğinde tuzları oluşturur",
+            "rightAnswer": "Sulu çözeltilerine OH-- iyonu verir"
+        },
+        {
+            "id": 10063,
+            "question": "Depresyon, diş çürüğü, egzama, saç dökülmesi gibi rahatsızlıkların nedeni vücudumuzdaki asit baz dengesinin bozulmasıdır. Bu durum, asit ve bazların aşağıda verilen hangi özelliğinden kaynaklanır?",
+            "option1": "Enerji vermeleri",
+            "option2": "Homeostasiyi etkilemeleri",
+            "option3": "İnorganik olmaları",
+            "option4": "Hücre zarından geçebilmeleri",
+            "rightAnswer": "Homeostasiyi etkilemeleri"
+        },
+        {
+            "id": 10064,
+            "question": "Hidrolizleri sonucu tek çeşit monomer oluşturan karbonhidratlar hangi seçenekte bir arada verilmiştir?",
+            "option1": "Selüloz ve sükroz",
+            "option2": "Maltoz ve fruktoz",
+            "option3": "Maltoz ve glikojen",
+            "option4": "Nişasta ve sükroz",
+            "rightAnswer": "Maltoz ve glikojen"
+        },
+        {
+            "id": 10065,
+            "question": "Aşağıda verilen moleküllerden hangisi protein yapılı değildir?",
+            "option1": "Hemoglobin",
+            "option2": "Antikor",
+            "option3": "Kitin",
+            "option4": "Enzim",
+            "rightAnswer": "Kitin"
+        },
+        {
+            "id": 10066,
+            "question": "Vitamin bakımından zengin besinler tazeyken tüketilmelidir. Çünkü; ısı, ışık, bekletme, metallerle temas gibi faktörler vitaminlerin yapısını bozar. Buna göre vitaminler aşağıdaki besin gruplarından hangisine benzetilebilir?",
+            "option1": "Proteinler",
+            "option2": "Karbonhidratlar",
+            "option3": "Lipitler",
+            "option4": "Mineraller",
+            "rightAnswer": "Proteinler"
+        },
+        {
+            "id": 10067,
+            "question": "Vitaminlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+            "option1": "Kaynağı genellikle bitkilerdir",
+            "option2": "Enerji verici olarak kullanılır",
+            "option3": "Sindirilmeden kana geçer",
+            "option4": "Hücre yapısına katılmaz",
+            "rightAnswer": "Enerji verici olarak kullanılır"
+        },
+        {
+            "id": 10068,
+            "question": "Aşağıdakilerden hangisi suda çözünen vitaminlerdendir?",
+            "option1": "A vitamini",
+            "option2": "E vitamini",
+            "option3": "C vitamini",
+            "option4": "D vitamini",
+            "rightAnswer": "C vitamini"
+        },
+        {
+            "id": 10069,
+            "question": "Enzimler ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+            "option1": "Biyokimyasal reaksiyonları başlatır",
+            "option2": "Biyolojik katalizördür",
+            "option3": "Aktivasyon enerjisini düşürür",
+            "option4": "Organik yapılı bileşiktir",
+            "rightAnswer": "Biyokimyasal reaksiyonları başlatır"
+        },
+        {
+            "id": 10070,
+            "question": "Hidrojen bağı sayısı ve toplam Guanin nükleotit sayısı bilinen bir DNA molekülünde Pürin / Pirimidin oranı aşağıdakilerden hangisidir?",
+            "option1": "1",
+            "option2": "1/2",
+            "option3": "1/3",
+            "option4": "1/4",
+            "rightAnswer": "1"
+        },
+        {
+            "id": 10071,
+            "question": "Aşağıda verilen organellerden hangisi hücre zarının üretiminde görev almaz?",
+            "option1": "Lizozom",
+            "option2": "Golgi cisimciği",
+            "option3": "Endoplazmik retikulum",
+            "option4": "Mitokondri",
+            "rightAnswer": "Lizozom"
+        },
+        {
+            "id": 10072,
+            "question": "Aşağıda verilen organellerden hangisinde dehidrasyon tepkimesi gerçekleşmez?",
+            "option1": "Ribozom",
+            "option2": "Golgi cisimciği",
+            "option3": "Lizozom",
+            "option4": "Mitokondri",
+            "rightAnswer": "Lizozom"
+        },
+        {
+            "id": 10073,
+            "question": "Sentrozom organeli ile ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+            "option1": "Bakteride bulunmaz",
+            "option2": "Zarsız bir organeldir",
+            "option3": "İğ ipliği oluşumunu sağlar",
+            "option4": "Sperm hücresinde bulunmaz",
+            "rightAnswer": "Sperm hücresinde bulunmaz"
+        },
+        {
+            "id": 10074,
+            "question": "Tatlı sularda yaşayan tek hücreli organizmalar hücre içerisine giren fazla suyu aşağıdaki organellerden hangisi ile hücre dışına atar?",
+            "option1": "Besin kofulu",
+            "option2": "Kontraktil koful",
+            "option3": "Golgi cisimciği",
+            "option4": "Endoplazmik retikulum",
+            "rightAnswer": "Kontraktil koful"
+        },
+        {
+            "id": 10075,
+            "question": "Aşağıdaki organellerden hangisi prokaryot ve ökaryot tüm hücrelerde bulunur?",
+            "option1": "Lizozom",
+            "option2": "Ribozom",
+            "option3": "Koful",
+            "option4": "Sentrozom",
+            "rightAnswer": "Ribozom"
+        },
+        {
+            "id": 10076,
+            "question": "Kloroplast organeli ile ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+            "option1": "Kendini eşleyebilir",
+            "option2": "Çift katlı zara sahiptir",
+            "option3": "ATP sentezi gerçekleştirebilir",
+            "option4": "Fotosentetik tüm canlılarda bulunur",
+            "rightAnswer": "Fotosentetik tüm canlılarda bulunur"
+        },
+        {
+            "id": 10077,
+            "question": "Aşağıda verilen yapı veya organellerin hangisinden koful oluşmaz?",
+            "option1": "Çekirdek zarı",
+            "option2": "Endoplazmik retikulum",
+            "option3": "Lizozom",
+            "option4": "Hücre zarı",
+            "rightAnswer": "Lizozom"
+        },
+        {
+            "id": 10078,
+            "question": "Fotosentez yapabilen bir bitki hücresinde aşağıdaki organellerden hangisi bulunmaz?",
+            "option1": "Mitokondri",
+            "option2": "Sentrozom",
+            "option3": "Koful",
+            "option4": "Ribozom",
+            "rightAnswer": "Sentrozom"
+        },
+        {
+            "id": 10079,
+            "question": "Aşağıda verilen organellerden hangisi tüm ökaryot hücrelerde ortak olarak bulunmaz?",
+            "option1": "Endoplazmik retikulum",
+            "option2": "Mitokondri",
+            "option3": "Golgi",
+            "option4": "Sentrozom",
+            "rightAnswer": "Sentrozom"
+        },
+        {
+            "id": 10080,
+            "question": "Aşağıda verilenlerden hangisi hücre döngüsünün interfaz evresinde meydana gelmez?",
+            "option1": "Organellerin sayıca çoğalması",
+            "option2": "İğ ipliklerinin kromozomlara bağlanması",
+            "option3": "DNA nın eşlenmesi",
+            "option4": "Protein sentezi",
+            "rightAnswer": "İğ ipliklerinin kromozomlara bağlanması"
+        },
+        {
+            "id": 10081,
+            "question": "AABbcc genotipindeki dişi ile AaBbCc genotipindeki erkek bireyin çaprazlanması sonucu bu ailenin Abc fenotipinde bir yavru oluşturma ihtimali kaçtır? (Genler bağımsızdır.)",
+            "option1": "1",
+            "option2": "1/2",
+            "option3": "1/4",
+            "option4": "1/8",
+            "rightAnswer": "1/8"
+        },
+        {
+            "id": 10082,
+            "question": "AaKkDdEeX^RX^r (^ işareti üssü anlamına gelir) genotipli bireyde AKD genleri bağlı olup diğerleri bağımsızdır. Bu birey bu karakterler açısından kaç çeşit gamet oluşturabilir? (Krossing over gerçekleşmemiştir.)",
+            "option1": "2",
+            "option2": "4",
+            "option3": "8",
+            "option4": "16",
+            "rightAnswer": "8"
+        },
+        {
+            "id": 10083,
+            "question": "Bezelyelerle yapılan çaprazlamalar sonucu fenotipte 9:3:3:1 oranı bulunmuştur. Buna göre çaprazlanan bezelyelerin genotipleri aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+            "option1": "MMTT X MMTT",
+            "option2": "MMTt X MMTT",
+            "option3": "MmTT X MmTT",
+            "option4": "MmTt X MmTt",
+            "rightAnswer": "MmTt X MmTt"
+        },
+        {
+            "id": 10084,
+            "question": "B Rh- kan grubuna sahip bir kadın ile A Rh+ kan grubuna sahip bir erkeğin ilk çocukları O Rh- kan gruplu olmuştur. Bu ailenin doğacak ikinci çocuklarının AB kan gruplu olma ve kan uyuşmazlığının görülme olasılığı nedir?",
+            "option1": "1/2",
+            "option2": "1/4",
+            "option3": "1/8",
+            "option4": "1/16",
+            "rightAnswer": "1/8"
+        },
+        {
+            "id": 10085,
+            "question": "Aşağıda verilenlerden hangisi sera etkisine yol açan gazlardan biri değildir?",
+            "option1": "CFC",
+            "option2": "CH4",
+            "option3": "NH3",
+            "option4": "NO2",
+            "rightAnswer": "NH3"
+        },
+        {
+            "id": 10086,
+            "question": "Mitoz bölünme sonrasında oluşan hücrelerle ana hücre arasında, verilenlerden hangisi mutasyonun olduğuna dair kesin kanıt oluşturur?",
+            "option1": "Sitoplazma miktarının farklı olması",
+            "option2": "Organel sayılarının farklı olması",
+            "option3": "Aktif genlerin farklı olması",
+            "option4": "Genetik materyalin farklı olması",
+            "rightAnswer": "Genetik materyalin farklı olması"
+        },
+        {
+            "id": 10087,
+            "question": "Aşağıda verilen canlılardan hangisinde rejenerasyonla çoğalma gözlenir?",
+            "option1": "Uğur böceği",
+            "option2": "Kertenkele",
+            "option3": "Planarya",
+            "option4": "Ahtapot",
+            "rightAnswer": "Planarya"
+        },
+        {
+            "id": 10088,
+            "question": "Partenogenezle çoğalma aşağıda verilen canlılardan hangisinde görülmez?",
+            "option1": "Eğrelti otları",
+            "option2": "Bal arıları",
+            "option3": "Su pireleri",
+            "option4": "Yaprak bitleri",
+            "rightAnswer": "Eğrelti otları"
+        },
+        {
+            "id": 10089,
+            "question": "Mayoz bölünme süresince bazı olaylar farklı evrelerde tekrarlanır. Aşağıdakilerden hangisi tekrarlanan olaylara örnek gösterilebilir?",
+            "option1": "DNA eşlenmesi",
+            "option2": "Tetrar oluşumu",
+            "option3": "Krossing over meydana gelmesi",
+            "option4": "Sitoplazma bölünmesi",
+            "rightAnswer": "Sitoplazma bölünmesi"
+        },
+        {
+            "id": 10090,
+            "question": "Mayoz bölünmenin Profaz - I evresinde 12 tetrat oluşturan hayvansal bir organizmanın kas hücresindeki kromozom sayısı kaçtır?",
+            "option1": "6",
+            "option2": "12",
+            "option3": "24",
+            "option4": "36",
+            "rightAnswer": "24"
+        },
+        {
+            "id": 10091,
+            "question": "Mayoz bölünmenin birinci profaz evresinde 40 kromatit gözlendiğine göre, bölünen hücre bölünme öncesi kaç kromozoma sahiptir?",
+            "option1": "4",
+            "option2": "8",
+            "option3": "10",
+            "option4": "20",
+            "rightAnswer": "20"
+        },
+        {
+            "id": 10092,
+            "question": "AABBDDRR genotipli bireyin oluşturacağı gamet çeşidi X ise, aşağıdakilerden hangisinin mayozuyla X+1 çeşit gamet meydana getirebilir?",
+            "option1": "MMtt",
+            "option2": "MMTT",
+            "option3": "MMTt",
+            "option4": "MmTt",
+            "rightAnswer": "MMTt"
+        },
+        {
+            "id": 10093,
+            "question": "İnsanlarda ayrık kulak memesi, yapışık kulak memesine baskındır. Heterozigot ayrık kulaklı iki bireyin evliliğinden meydana gelen çocukların, ayrık kulak memesi olan kız çocuğu olma olasılığı kaçtır?",
+            "option1": "1/4",
+            "option2": "1/8",
+            "option3": "3/16",
+            "option4": "3/8",
+            "rightAnswer": "3/8"
+        },
+        {
+            "id": 10094,
+            "question": "İnsanlarda koyu ten, beyaz tene; kıvırcık saç, düz saça baskındır. Heterozigot koyu tenli ve kıvırcık saçlı iki bireyin evliliğinden meydana gelen çocukların bu özellikler bakımından fenotip oranı nedir?",
+            "option1": "1:2:1",
+            "option2": "1:3",
+            "option3": "9:3:3:16",
+            "option4": "3:9:2:3",
+            "rightAnswer": "9:3:3:1"
+        },
+        {
+            "id": 10095,
+            "question": "MM nn PP RR ss genotipli birey aşağıdakilerden hangisiyle çaprazlanırsa oluşan yavru birey tümüyle heterozigot genotipe sahip olur?",
+            "option1": "MM nn PP RR ss",
+            "option2": "mm NN pp rr SS",
+            "option3": "Mn Nn pp rr Ss",
+            "option4": "MM nn PP rr ss",
+            "rightAnswer": "mm NN pp rr SS"
+        },
+        {
+            "id": 10096,
+            "question": "İnsanda M ve N kan grubunda M aleli N’ye; A, B ve O kan gruplarında ise A aleli B’ye eş baskındır. ABMN genotipli bir dişiyle BBMM genotipli erkeğin evliliğinden A ve N kan grubu fenotipli birey meydana gelme olasılığı nedir?",
+            "option1": "0",
+            "option2": "1/2",
+            "option3": "1/4",
+            "option4": "1/6",
+            "rightAnswer": "0"
+        },
+        {
+            "id": 10097,
+            "question": "Sığırlarda kızıl kıl rengi beyaz kıl rengine eş baskındır. Heterozigot durumda sığırlarda demirkırı renk görülür. Demirkırı iki bireyin çaprazlamasından oluşabilecek renkler aşağıdakilerden hangisinde doğru verilmiştir?",
+            "option1": "Demirkırı - Beyaz",
+            "option2": "Beyaz - Siyah",
+            "option3": "Kızıl - Demirkırı",
+            "option4": "Kızıl - Demirkırı - Beyaz",
+            "rightAnswer": "Kızıl - Demirkırı - Beyaz"
+        }
+    ]
+}
