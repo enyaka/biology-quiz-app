@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "569646395314",
+    "project_id": "yks-biyoloji",
+    "storage_bucket": "yks-biyoloji.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569646395314:android:b58fbdbec2fd0567a37eab",
+        "android_client_info": {
+          "package_name": "com.enyaka.yksbiyoloji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569646395314-ihkbjhmsa8s08r6tmalti2glavqki630.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enyaka.yksbiyoloji",
+            "certificate_hash": "d8c3fb7b454608d66a4419392e058f0eed158de5"
+          }
+        },
+        {
+          "client_id": "569646395314-ghoapa2dkr0sep6dh0c11dsuu7h4djur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR8eJDJeUKkZ7CAITkE5m7BCBTNyO7B8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569646395314-ghoapa2dkr0sep6dh0c11dsuu7h4djur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,6 @@
+import 'package:enyaka_biology_quiz/screens/login/viewmodel/login_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sizer/sizer.dart';
 
 import '../../../quizpage/view/quizpage.dart';
@@ -8,6 +10,8 @@ class SubjectButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final _loginCubit = BlocProvider.of<LoginCubit>(context);
+
     return SizedBox(
       width: 60.0.w,
       child: ListView.builder(
@@ -24,21 +28,22 @@ class SubjectButtons extends StatelessWidget {
                 borderRadius: BorderRadius.circular(25),
               ),
               child: ElevatedButton(
-                onPressed: () {
+                onPressed: () async {
                   final type = index == 0 ? 'tyt' : (index == 1 ? 'ayt' : '');
                   debugPrint('Seçilen şık : ' + index.toString());
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => QuizPage(
-                              type: type,
-                            )),
-                  );
+                  final returnedScore = await Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => QuizPage(
+                                  type: type,
+                                )),
+                      ) ??
+                      0;
+                  _loginCubit.addToScore(returnedScore);
                 },
                 child: Text(
                   index == 0 ? 'TYT' : (index == 1 ? 'AYT' : 'Karışık Sorular'),
-                  style:
-                      TextStyle(fontSize: 15.sp),
+                  style: TextStyle(fontSize: 15.sp),
                 ),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.transparent,

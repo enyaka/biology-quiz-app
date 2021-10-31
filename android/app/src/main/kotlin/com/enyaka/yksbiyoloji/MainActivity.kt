@@ -1,4 +1,4 @@
-package com.example.enyaka_biology_quiz
+package com.enyaka.yksbiyoloji
 
 import io.flutter.embedding.android.FlutterActivity
 

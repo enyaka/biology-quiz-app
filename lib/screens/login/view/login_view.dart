@@ -1,3 +1,4 @@
+import 'package:enyaka_biology_quiz/screens/login/viewmodel/login_cubit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -13,7 +14,7 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _themeCubit = BlocProvider.of<ThemeCubit>(context);
-
+    final _loginCubit = BlocProvider.of<LoginCubit>(context);
     return Scaffold(
       body: Column(
         children: [
@@ -28,7 +29,7 @@ class Login extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                myTotalScore(),
+                myTotalScore(_loginCubit, _themeCubit),
                 myDarkModeSwitch(_themeCubit),
               ],
             ),
@@ -42,7 +43,7 @@ class Login extends StatelessWidget {
   }
 }
 
-Row myTotalScore() => Row(
+Row myTotalScore(LoginCubit loginCubit, ThemeCubit theme) => Row(
       children: [
         Image(
           image: const AssetImage('assets/images/toplam_star.png'),
@@ -54,8 +55,11 @@ Row myTotalScore() => Row(
           width: 8,
         ),
         Text(
-          'Toplam Skor : ',
-          style: TextStyle(fontSize: 15.0.sp, fontWeight: FontWeight.bold),
+          'Toplam Skor : ' + loginCubit.totalScore.toString(),
+          style: TextStyle(
+              fontSize: 15.0.sp,
+              fontWeight: FontWeight.bold,
+              color: theme.isDark ? Colors.white : Colors.grey[800]),
         ),
       ],
     );
