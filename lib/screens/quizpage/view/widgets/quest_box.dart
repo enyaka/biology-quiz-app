@@ -20,34 +20,35 @@ class QuestBox extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 3.0.w, vertical: 1.5.h),
       child: Container(
-        decoration: BoxDecoration(
-            color: _theme.isDark ? kDarkQuestBoxColor : Colors.white,
-            borderRadius: BorderRadius.circular(20),
-            boxShadow: [
-              BoxShadow(
-                  color: _theme.isDark ? Colors.black87 : Colors.grey,
-                  offset: const Offset(0.0, 5.0), //(x,y)
-                  blurRadius: 17.0,
-                  spreadRadius: -4.5),
-            ]),
-        width: double.infinity,
-        child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 7.0.w, vertical: 3.0.h),
-          child: AnimatedOpacity(
-            opacity: _provider.opacity ? 1 : 0,
-            duration: const Duration(seconds: 1),
-            child: Center(
-              child: AutoSizeText(
-                _provider.question,
-                style: TextStyle(
-                  color: _theme.isDark ? Colors.white : Colors.grey[800],
-                  fontSize: 25.0.sp,
-                ),
-              ),
+          decoration: BoxDecoration(
+              color: _theme.isDark ? kDarkQuestBoxColor : Colors.white,
+              borderRadius: BorderRadius.circular(20),
+              boxShadow: [
+                BoxShadow(
+                    color: _theme.isDark ? Colors.black87 : Colors.grey,
+                    offset: const Offset(0.0, 5.0), //(x,y)
+                    blurRadius: 17.0,
+                    spreadRadius: -4.5),
+              ]),
+          width: double.infinity,
+          child: myQuestBox(_theme, _provider)),
+    );
+  }
+}
+
+Padding myQuestBox(ThemeCubit theme, QuestionManager provider) => Padding(
+      padding: EdgeInsets.symmetric(horizontal: 7.0.w, vertical: 3.0.h),
+      child: AnimatedOpacity(
+        opacity: provider.opacity ? 1 : 0,
+        duration: const Duration(seconds: 1),
+        child: Center(
+          child: AutoSizeText(
+            provider.question,
+            style: TextStyle(
+              color: theme.isDark ? Colors.white : Colors.grey[800],
+              fontSize: 25.0.sp,
             ),
           ),
         ),
       ),
     );
-  }
-}

@@ -22,7 +22,7 @@ class ThemeCubit extends Cubit<ThemeData> {
 
   _loadFromPreferences() async {
     await _initialPreferences();
-    isDark = _preferences!.getBool(key) ?? true;
+    isDark = _preferences!.getBool(key) ?? false;
     emit(isDark ? _darkTheme : _lightTheme);
   }
 

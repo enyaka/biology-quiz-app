@@ -21,7 +21,6 @@ class QuestionApiClient {
         final list = Question.fromJson(returnedAnswer).questions;
         return list;
       default:
-        //Map<String, int> combinedMap = {};
         final responseTyt = await rootBundle.loadString(localPathTyt);
         final responseAyt = await rootBundle.loadString(localPathAyt);
         final returnedListTyt =

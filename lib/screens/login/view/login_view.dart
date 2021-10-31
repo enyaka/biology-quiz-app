@@ -15,6 +15,7 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     final _themeCubit = BlocProvider.of<ThemeCubit>(context);
     final _loginCubit = BlocProvider.of<LoginCubit>(context);
+    const _totalScoreImagePath = 'assets/images/toplam_star.png';
     return Scaffold(
       body: Column(
         children: [
@@ -24,16 +25,7 @@ class Login extends StatelessWidget {
             padding: EdgeInsets.only(top: 8.5.h),
             child: const SubjectButtons(),
           )),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 4.5.w),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                myTotalScore(_loginCubit, _themeCubit),
-                myDarkModeSwitch(_themeCubit),
-              ],
-            ),
-          ),
+          myBottomLayer(_themeCubit, _loginCubit, _totalScoreImagePath),
           const SizedBox(
             height: 10,
           ),
@@ -43,10 +35,22 @@ class Login extends StatelessWidget {
   }
 }
 
-Row myTotalScore(LoginCubit loginCubit, ThemeCubit theme) => Row(
+Padding myBottomLayer(
+        ThemeCubit themeCubit, LoginCubit loginCubit, String path) =>
+    Padding(
+      padding: EdgeInsets.symmetric(horizontal: 4.5.w),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          myTotalScore(loginCubit, themeCubit, path),
+          myDarkModeSwitch(themeCubit),
+        ],
+      ),
+    );
+Row myTotalScore(LoginCubit loginCubit, ThemeCubit theme, String path) => Row(
       children: [
         Image(
-          image: const AssetImage('assets/images/toplam_star.png'),
+          image: AssetImage(path),
           height: 3.0.h,
           width: 7.0.w,
           fit: BoxFit.fill,
@@ -68,7 +72,7 @@ Row myDarkModeSwitch(ThemeCubit themeCubit) => Row(
       children: [
         Icon(
           Icons.light_mode_rounded,
-          color: themeCubit.isDark ? Colors.black : Colors.amber,
+          color: themeCubit.isDark ? Colors.grey[700] : Colors.amber,
         ),
         CupertinoSwitch(
             trackColor: Colors.amber,

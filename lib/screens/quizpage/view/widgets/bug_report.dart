@@ -2,8 +2,12 @@
 
 import 'package:enyaka_biology_quiz/locator.dart';
 import 'package:enyaka_biology_quiz/service/cloud_firestore_layer.dart';
+import 'package:enyaka_biology_quiz/theme/theme_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sizer/sizer.dart';
+
+import '../../../../constants.dart';
 
 enum BugReason { birinci, ikinci, ucuncu, dorduncu }
 
@@ -24,18 +28,36 @@ class BugReport extends StatefulWidget {
 
 class _BugReportState extends State<BugReport> {
   BugReason? _bugReason = BugReason.birinci;
-
+  final String _title = 'HATA BİLDİR';
+  final String _firstOption = 'Soru hatalı.';
+  final String _secondOption = 'Sorunun cevabı yanlış';
+  final String _thirdOption = 'Soru Müfdredat dışı.';
+  final String _fourthOption = 'Diğer';
+  final String _backButtonText = 'Geri';
+  final String _sendButtonText = 'Gönder';
+  final String _succesMessage = 'Hata iletildi.';
+  final String _errorMessage =
+      'Hata iletilemedi! İnternet bağlantınızı kontrol ediniz';
   @override
   Widget build(BuildContext context) {
+    final _theme = BlocProvider.of<ThemeCubit>(context);
+    final _backgroundColor =
+        _theme.isDark ? kDarkModeBackrgoundColor : kWhiteModeBackgroundColor;
+    final _textColor = _theme.isDark ? Colors.white : Colors.grey[800];
     return AlertDialog(
-      title: const Text('HATA BİLDİR'),
+      scrollable: true,
+      backgroundColor: _backgroundColor,
+      title: Text(
+        _title,
+        style: TextStyle(color: _textColor),
+      ),
       elevation: 5,
       content: Column(
         children: [
           ListTile(
             title: Text(
-              'Soru hatalı.',
-              style: TextStyle(fontSize: 15.sp),
+              _firstOption,
+              style: TextStyle(fontSize: 15.sp, color: _textColor),
             ),
             leading: Radio(
               value: BugReason.birinci,
@@ -43,15 +65,15 @@ class _BugReportState extends State<BugReport> {
               onChanged: (BugReason? value) {
                 setState(() {
                   _bugReason = value;
-                  widget.bug = 'Soru hatalı.';
+                  widget.bug = _firstOption;
                 });
               },
             ),
           ),
           ListTile(
             title: Text(
-              'Sorunun cevabı yanlış',
-              style: TextStyle(fontSize: 15.sp),
+              _secondOption,
+              style: TextStyle(fontSize: 15.sp, color: _textColor),
             ),
             leading: Radio(
               value: BugReason.ikinci,
@@ -59,15 +81,15 @@ class _BugReportState extends State<BugReport> {
               onChanged: (BugReason? value) {
                 setState(() {
                   _bugReason = value;
-                  widget.bug = 'Sorunun cevabı yanlış,';
+                  widget.bug = _secondOption;
                 });
               },
             ),
           ),
           ListTile(
             title: Text(
-              'Soru Müfdredat dışı.',
-              style: TextStyle(fontSize: 15.sp),
+              _thirdOption,
+              style: TextStyle(fontSize: 15.sp, color: _textColor),
             ),
             leading: Radio(
               value: BugReason.ucuncu,
@@ -75,15 +97,15 @@ class _BugReportState extends State<BugReport> {
               onChanged: (BugReason? value) {
                 setState(() {
                   _bugReason = value;
-                  widget.bug = 'Soru Müfdredat dışı.';
+                  widget.bug = _thirdOption;
                 });
               },
             ),
           ),
           ListTile(
             title: Text(
-              'Diğer',
-              style: TextStyle(fontSize: 15.sp),
+              _fourthOption,
+              style: TextStyle(fontSize: 15.sp, color: _textColor),
             ),
             leading: Radio(
               value: BugReason.dorduncu,
@@ -91,7 +113,7 @@ class _BugReportState extends State<BugReport> {
               onChanged: (BugReason? value) {
                 setState(() {
                   _bugReason = value;
-                  widget.bug = 'Diğer,';
+                  widget.bug = _fourthOption;
                 });
               },
             ),
@@ -103,7 +125,7 @@ class _BugReportState extends State<BugReport> {
             onPressed: () {
               Navigator.pop(context);
             },
-            child: const Text('Geri')),
+            child: Text(_backButtonText)),
         TextButton(
             onPressed: () {
               CloudFirestoreLayer _cloudFireBaseLayer =
@@ -111,15 +133,17 @@ class _BugReportState extends State<BugReport> {
               bool response = _cloudFireBaseLayer.addBug(
                   widget.questionID, widget.question, widget.bug);
               response
-                  ? ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('Hata iletildi.')))
-                  : ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-                      content: Text(
-                          'Hata iletilemedi! İnternet bağlantınızı kontrol ediniz')));
+                  ? ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content: Text(_succesMessage),
+                      duration: const Duration(milliseconds: 500),
+                    ))
+                  : ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      duration: const Duration(milliseconds: 500),
+                      content: Text(_errorMessage)));
 
               Navigator.pop(context);
             },
-            child: const Text('Gönder')),
+            child: Text(_sendButtonText)),
       ],
     );
   }
