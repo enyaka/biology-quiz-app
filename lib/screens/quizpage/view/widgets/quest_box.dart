@@ -1,5 +1,5 @@
-import 'package:enyaka_biology_quiz/screens/quizpage/viewmodel/quizpage_provider.dart';
-import 'package:enyaka_biology_quiz/theme/theme_cubit.dart';
+import '../../viewmodel/quizpage_provider.dart';
+import '../../../../theme/theme_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';

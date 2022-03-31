@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -22,8 +23,14 @@ class ThemeCubit extends Cubit<ThemeData> {
 
   _loadFromPreferences() async {
     await _initialPreferences();
-    isDark = _preferences!.getBool(key) ?? false;
+
+    isDark = _preferences!.getBool(key) ?? _systemMode();
     emit(isDark ? _darkTheme : _lightTheme);
+  }
+
+  bool _systemMode() {
+    var brightness = SchedulerBinding.instance!.window.platformBrightness;
+    return brightness == Brightness.light ? false : true;
   }
 
   static final _lightTheme = ThemeData(

@@ -6,6 +6,12 @@ import 'package:enyaka_biology_quiz/screens/quizpage/model/question.dart';
 import 'package:flutter/material.dart';
 
 class QuestionManager extends ChangeNotifier {
+  @override
+  void dispose() {
+    quest!.clear();
+    super.dispose();
+  }
+
   final List<QuestionModel>? quest;
   List<int> _numberKeeper = [];
   int _score = 0;

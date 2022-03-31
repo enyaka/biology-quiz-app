@@ -1,12 +1,13 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:enyaka_biology_quiz/constants.dart';
 import 'package:enyaka_biology_quiz/repository/question_api_client.dart';
+import 'package:enyaka_biology_quiz/screens/login/viewmodel/login_cubit.dart';
 import 'package:enyaka_biology_quiz/screens/quizpage/model/question.dart';
 import 'package:enyaka_biology_quiz/screens/quizpage/view/widgets/my_alert_diolog.dart';
 import 'package:enyaka_biology_quiz/screens/quizpage/view/widgets/quest_box.dart';
 import 'package:enyaka_biology_quiz/screens/quizpage/view/widgets/quest_buttons.dart';
 import 'package:enyaka_biology_quiz/screens/quizpage/view/widgets/upbar.dart';
+import 'package:enyaka_biology_quiz/screens/quizpage/viewmodel/quizpage_ad_provider.dart';
 import 'package:enyaka_biology_quiz/screens/quizpage/viewmodel/quizpage_provider.dart';
 import 'package:enyaka_biology_quiz/theme/theme_cubit.dart';
 import 'package:flutter/material.dart';
@@ -27,12 +28,17 @@ class QuizPage extends StatelessWidget {
       future: _getData(type),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          return ChangeNotifierProvider(
+          return MultiProvider(providers: [
+            ChangeNotifierProvider(
               create: (_) => QuestionManager(
                   quest: snapshot.data,
                   listLength: snapshot.data!.length,
                   isDark: _theme.isDark),
-              child: QuizPageView());
+            ),
+            ChangeNotifierProvider(
+              create: (_) => QuizPageAdProvider(),
+            )
+          ], child: QuizPageView());
         } else if (snapshot.hasError) {
           return Center(
               child: Text(
@@ -67,6 +73,8 @@ class QuizPageView extends StatelessWidget {
   Widget build(BuildContext context) {
     final _theme = BlocProvider.of<ThemeCubit>(context);
     final _provider = Provider.of<QuestionManager>(context, listen: false);
+    final _adProvider = Provider.of<QuizPageAdProvider>(context);
+
     return Scaffold(
         body: WillPopScope(
       onWillPop: () async {
@@ -74,23 +82,29 @@ class QuizPageView extends StatelessWidget {
         _answer ? Navigator.pop(context, _provider.score) : false;
         return _answer;
       },
-      child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 4.5.w, vertical: 1.5.h),
-        child: Column(
-          children: const [
-            Expanded(
-              child: UpBar(),
-              flex: 1,
-            ),
-            Expanded(
-              child: QuestBox(),
-              flex: 8,
-            ),
-            Expanded(
-              child: QuestButtons(),
-              flex: 10,
-            )
-          ],
+      child: SafeArea(
+        child: Padding(
+          padding: EdgeInsets.fromLTRB(4.0.w, 1.5.h, 4.0.w, 0),
+          child: Column(
+            children: [
+              Expanded(
+                child: UpBar(),
+                flex: 1,
+              ),
+              Expanded(
+                child: QuestBox(),
+                flex: 8,
+              ),
+              Expanded(
+                child: QuestButtons(),
+                flex: 10,
+              ),
+              Expanded(
+                flex: 2,
+                child: _adProvider.checkForAd(),
+              ),
+            ],
+          ),
         ),
       ),
     ));

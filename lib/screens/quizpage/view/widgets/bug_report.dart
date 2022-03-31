@@ -45,6 +45,7 @@ class _BugReportState extends State<BugReport> {
         _theme.isDark ? kDarkModeBackrgoundColor : kWhiteModeBackgroundColor;
     final _textColor = _theme.isDark ? Colors.white : Colors.grey[800];
     return AlertDialog(
+      shape: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
       scrollable: true,
       backgroundColor: _backgroundColor,
       title: Text(
@@ -135,10 +136,10 @@ class _BugReportState extends State<BugReport> {
               response
                   ? ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                       content: Text(_succesMessage),
-                      duration: const Duration(milliseconds: 500),
+                      duration: const Duration(milliseconds: 1000),
                     ))
                   : ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                      duration: const Duration(milliseconds: 500),
+                      duration: const Duration(milliseconds: 1000),
                       content: Text(_errorMessage)));
 
               Navigator.pop(context);

@@ -1,4 +1,4 @@
-import 'package:enyaka_biology_quiz/theme/theme_cubit.dart';
+import '../../../../theme/theme_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -12,6 +12,7 @@ class MyAlertDiolog extends StatelessWidget {
     final theme = BlocProvider.of<ThemeCubit>(context);
     final _textColor = theme.isDark ? Colors.white : Colors.grey[800];
     return AlertDialog(
+      shape: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
       backgroundColor:
           theme.isDark ? kDarkModeBackrgoundColor : kWhiteModeBackgroundColor,
       title: Text(

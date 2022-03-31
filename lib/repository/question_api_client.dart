@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:enyaka_biology_quiz/screens/quizpage/model/question.dart';
+import '../screens/quizpage/model/question.dart';
 import 'package:flutter/services.dart';
 
 class QuestionApiClient {
