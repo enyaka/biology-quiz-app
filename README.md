@@ -8,7 +8,7 @@ Bu proje önceden yapılmış olup klasörleme yapısında ve kod yapısında ba
 
 ## Detay
 
-Uygulamada dark ve light mode bulunmaktadır. Hatalı soruları kullanıcılar raporlayabilirler. Bu raporlar firebasede depolanır. Uygulamada test reklamları bulunmaktadır. unlardan bir tanesi geçiş reklamı bir tanesi de banner reklamdır. Kullanıcılar soruları cevaplayarak ezberlerini ve bilgilerini pekiştirirler.
+Uygulamada dark ve light mode bulunmaktadır. Hatalı soruları kullanıcılar raporlayabilirler. Bu raporlar firebasede depolanır. Uygulamada test reklamları bulunmaktadır. Bunlardan bir tanesi geçiş reklamı bir tanesi de banner reklamdır. Kullanıcılar soruları cevaplayarak ezberlerini ve bilgilerini pekiştirirler.
 
 ## Görseller
 
